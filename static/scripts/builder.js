@@ -57,7 +57,6 @@ const updateTemplate = (elemId) => {
   const updatedContent = content.replace(match, replacement).replace('\n\n\n', '\n\n')
   preview.innerHTML = updatedContent
   scrollPreview(replacement)
-  cleanUpWhiteSpace()
   return template
 }
 
@@ -108,6 +107,24 @@ const revealStep = (elemId) => {
     step.classList.add('hidden')
   });
   elem.classList.remove('hidden')
+}
+
+const copyPreviewToClipboard = () => {
+  const preview = document.getElementById('preview')
+  if (!preview) { return }
+
+  const completedText = preview.innerHTML.replace()
+  const regex = RegExp('<span.+</?span>\n','m')
+  const match = completedText.match(regex)
+  const cleanText = completedText.replace(match, "")
+  navigator.clipboard.writeText(cleanText).then(
+    function () {
+      console.log('Copied to clipboard.')
+    },
+    function (err) {
+      console.error('Could not copy text: ', err)
+    }
+  )
 }
 
 const readTemplate = async (url) => {
