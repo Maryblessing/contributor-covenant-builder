@@ -6,7 +6,7 @@ const readTemplate = async (url) => {
   return await response.text()
 }
 
-const initializeBuilder = async (version, placeholder) => {
+const initializeBuilder = async (version) => {
   const versionPath = version.replace(".", "/")
   const sourceUrl =  window.location.href.replace("adopt/",`version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = await readTemplate(sourceUrl)
@@ -19,22 +19,35 @@ const initializeBuilder = async (version, placeholder) => {
   const template = document.getElementById('template')
   if (template) { template.innerHTML = content }
 
-  const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const regex = new RegExp(`^.*${escaped}.*$`, 'm');
-  const match = content.match(regex);
-
   const reportingField = document.getElementById('reporting')
-  if (reportingField) { reportingField.value = match }
+  if (reportingField) {
+    const placeholder = reportingField.dataset.placeholder
+    const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`^.*${escaped}.*$`, 'm');
+    const match = content.match(regex);
+    reportingField.value = match
+    reportingField.addEventListener("blur", (event) => {
+      updateTemplateWithReportingMethod('reporting')
+    });
+  }
+
 }
 
-const updateTemplate = (placeholder, content) => {
+const updateTemplateWithReportingMethod = () => {
+  const template = document.getElementById('template')
   const preview = document.getElementById('preview')
-  if (preview) {
-    const contents = preview.content
-    const updatedContent = contents.replace(placeholder, content)
+  const field = document.getElementById('reporting')
+  if (template && field) {
+    const placeholder = field.dataset.placeholder
+    const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`^.*${escaped}.*$`, 'm');
+    const content = template.innerHTML
+    const replacement = field.value
+    const match = content.match(regex);
+    const updatedContent = content.replace(match, replacement)
     preview.innerHTML = updatedContent
   }
-  return preview
+  return template
 }
 
 const revealStep = (elemId) => {
