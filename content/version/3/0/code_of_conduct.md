@@ -50,11 +50,6 @@ When an incident does occur, it is important to report it promptly. Community Mo
 
 Community Moderators will investigate all reports of code of conduct violations. While investigating, they may review messages, logs, and recordings, or interview witnesses and other participants. We keep investigation and enforcement procedures as transparent as possible while prioritizing safety and confidentiality.
 
-## When to Report an Issue
-Wherever possible and reasonable, Community Moderators encourage first making an effort to address an issue directly and quickly with those involved, if it is safe to do so. If you are able to address an issue in the moment, please do file an informational report anyway, so if the issue comes up repeatedly the code of conduct committee can consider the previous history.
-
-Sometimes an issue is so serious or emotional that you may not feel safe raising it directly with a fellow contributor, or you may raise the issue without resolution.  These types of issues are what a formal reporting process is best at handling.  Please keep in mind when considering how to address an issue that a formal process may be slow, and receiving a formal warning can add more emotion to a situation. However, dealing with an issue through official reporting channels can be a more impactful learning opportunity for the community.
-
 ## Addressing and Repairing Harm
 [NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]
 
@@ -62,22 +57,30 @@ If an investigation by the Community Moderators finds that this Code of Conduct 
 
 ### 1. Warning
 **Event:** A violation involving a single incident or series of incidents.
+
 **Consequence**: A private, written warning from the Community Moderators.
+
 **Repair:** Examples of repair include a private written apology, acknowledgement of responsibility, and seeking clarification on expectations.
 
 ### 2. Temporarily Limited Activities
 **Event:** A repeated incidence of a violation that previously resulted in a warning, or the first incidence of a more serious violation.
+
 **Consequence**:  A private, written warning with a time-limited cooldown period designed to underscore the seriousness of the situation and give the community members involved time to process the incident.  The cooldown period may be limited to particular communication channels or interactions with particular community members.
+
 **Repair:** Examples of repair include respecting the spirit of the cooldown period, using the time to reflect on actions and impact, and being thoughtful about re-entering community spaces after the period is over.
 
 ### 3. Temporary Suspension
 **Event:** A pattern of repeated violation which the Community Moderators have tried to address with warnings, or a single serious violation.
+
 **Consequence**: A private written warning with conditions for return from suspension. In general, temporary suspensions give the person being suspended time to reflect upon their behavior and possible corrective actions.
+
 **Repair:** Examples of repair include respecting the spirit of the suspension, meeting the specified conditions for return, and being thoughtful about how to reintegrate with the community when the suspension is lifted.
 
 ### 4. Permanent Ban
 **Event:** A pattern of repeated code of conduct violations that other steps on the ladder have failed to resolve, or a violation of such a serious nature that the Community Moderators determine there is no way to keep the community safe with this person as a member.
+
 **Consequence**: Access to all community spaces, tools, and communication channels is removed, and the person involved may be asked not to interact with particular community members by any means at all.  In general, permanent bans should be rarely used, should have strong reasoning behind them, and should only be resorted to if working through other remedies has failed to change the behavior.
+
 **Repair:** There is no possible repair in cases of this severity.
 
 This enforcement ladder is intended as a guideline. It does not limit the ability of Community Managers to use their discretion and judgment, in keeping with the best interests of our community.
