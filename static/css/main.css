@@ -428,7 +428,7 @@ textarea {
 }
 
 textarea.builder {
-  height: 15rem;
+  height: 12rem;
 }
 
 input[type="text"]:focus,

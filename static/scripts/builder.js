@@ -23,7 +23,7 @@ const initializeBuilder = async (version) => {
     reportingField.addEventListener("blur", (event) => {
       updatePreview('reporting')
     });
-    reportingField.addEventListener("keydown", (event) => {
+    reportingField.addEventListener("keyup", (event) => {
       updatePreview('reporting')
     });
   }
@@ -41,7 +41,7 @@ const initializeBuilder = async (version) => {
     enforcementField.addEventListener("blur", (event) => {
       updatePreview('enforcement')
     });
-    enforcementField.addEventListener("keydown", (event) => {
+    enforcementField.addEventListener("keyup", (event) => {
       updatePreview('enforcement')
     });
   }
@@ -52,18 +52,32 @@ const updatePreview = (elemId) => {
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
   const field = document.getElementById(elemId)
-  if (!template || !field || !preview) { return }
+  if (!template || !preview || !field) { return }
 
-  const placeholder = field.dataset.placeholder
-  const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
-  const content = template.innerHTML
-  const replacement = field.value
-  const match = content.match(regex)
-  const updatedContent = content.replace(match, replacement).replace('\n\n\n', '\n\n')
-  preview.innerHTML = updatedContent
-  scrollPreview(replacement)
-  return template
+  const defaultText = template.innerHTML
+  const matches = []
+  let scrollToText = ""
+
+  const customFields = document.getElementsByClassName('builder')
+  const fieldsArray = Array.from(customFields)
+  fieldsArray.forEach((field) => {
+    const placeholder = field.dataset.placeholder
+    const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+    const match = defaultText.match(regex)
+    const replacement = field.value
+    const matchJSON = { match: match[0], replacement: replacement }
+    matches.push(matchJSON)
+    if (field.id == elemId) { scrollToText = replacement }
+  });
+
+  let buffer = defaultText
+  matches.forEach((match) => { buffer = buffer.replace(match.match, match.replacement) });
+  preview.innerHTML = buffer.replace('\n\n\n', '\n\n')
+
+  scrollPreview(scrollToText)
+
+  return preview
 }
 
 const scrollPreview = (text) => {
