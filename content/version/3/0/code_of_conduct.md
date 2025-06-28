@@ -3,7 +3,7 @@ title = "Contributor Covenant 3"
 version = "3.0"
 aliases = ["/version/3/0"]
 reportingPlaceholder = "[Add the means of reporting here.]"
-remediesPlaceholder = "[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
+enforcementPlaceholder = "[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
 +++
 
 # Contributor Covenant 3.0

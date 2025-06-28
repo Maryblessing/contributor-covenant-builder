@@ -27,16 +27,28 @@ const initializeBuilder = async (version) => {
     const match = content.match(regex);
     reportingField.value = match
     reportingField.addEventListener("blur", (event) => {
-      updateTemplateWithReportingMethod('reporting')
+      updateTemplate('reporting')
+    });
+  }
+
+  const enforcementField = document.getElementById('enforcement')
+  if (enforcementField) {
+    const placeholder = enforcementField.dataset.placeholder
+    const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`^.*${escaped}.*$`, 'm');
+    const match = content.match(regex);
+    enforcementField.value = match
+    enforcementField.addEventListener("blur", (event) => {
+      updateTemplate('enforcement')
     });
   }
 
 }
 
-const updateTemplateWithReportingMethod = () => {
+const updateTemplate = (elemId) => {
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
-  const field = document.getElementById('reporting')
+  const field = document.getElementById(elemId)
   if (template && field) {
     const placeholder = field.dataset.placeholder
     const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&');
