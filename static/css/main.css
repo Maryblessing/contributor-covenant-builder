@@ -267,6 +267,7 @@ a:focus,
 a:hover {
   color: var(--color-primary-lighter);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 a[href="#TODO"]::before {
