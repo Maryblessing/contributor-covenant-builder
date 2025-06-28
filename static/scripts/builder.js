@@ -23,6 +23,9 @@ const initializeBuilder = async (version) => {
     reportingField.addEventListener("blur", (event) => {
       updatePreview('reporting')
     });
+    reportingField.addEventListener("keydown", (event) => {
+      updatePreview('reporting')
+    });
   }
 
   const enforcementField = document.getElementById('enforcement')
@@ -36,6 +39,9 @@ const initializeBuilder = async (version) => {
       updatePreview('enforcement')
     });
     enforcementField.addEventListener("blur", (event) => {
+      updatePreview('enforcement')
+    });
+    enforcementField.addEventListener("keydown", (event) => {
       updatePreview('enforcement')
     });
   }
@@ -126,6 +132,29 @@ const copyPreviewToClipboard = () => {
       console.error('Could not copy text: ', err)
     }
   )
+}
+
+const downloadPreview = () => {
+  const preview = document.getElementById('preview')
+  if (!preview) { return }
+
+  const completedText = preview.innerHTML
+  const regex = RegExp('<span.+</?span>\n','m')
+  const match = completedText.match(regex)
+  const cleanText = completedText.replace(match, "")
+
+  const blob = new Blob([cleanText], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = "CODE_OF_CONDUCT.MD";
+  a.style.display = 'none';
+
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 const readTemplate = async (url) => {
