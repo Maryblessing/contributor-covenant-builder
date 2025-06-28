@@ -703,6 +703,9 @@ area {
   display: none;
 }
 
+#preview {
+  height: 20rem;
+}
 @media (min-width: 300px) {
 
   body {

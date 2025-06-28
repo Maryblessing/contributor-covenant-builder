@@ -1,0 +1,5 @@
+{{ with .Get "version" }}
+  {{ range (where (where $.Site.Pages "Section" "versions") ".Params.version" . ) | first 1 }}
+    {{ .Params.reportingPlaceholder }}
+  {{ end }}
+{{ end }}

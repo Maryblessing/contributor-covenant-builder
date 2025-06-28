@@ -7,17 +7,31 @@ const readTemplate = async (url) => {
 }
 
 const initializeTemplate = async (version) => {
-  const sourceUrl =  window.location.href.replace("adopt/",`version/${version}/code_of_conduct/code_of_conduct.md`)
+  const versionPath = version.replace(".", "/")
+  const sourceUrl =  window.location.href.replace("adopt/",`version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = readTemplate(sourceUrl)
   const template = document.createElement('template')
+  const preview = document.getElementById('preview')
   template.id = 'template'
   template.innerHTML = content
   document.body.appendChild(template)
+  preview.innerHTML = await content
   return template
 }
 
-const populateReporting = (placeholder, content) => {
-  const template = document.getElementsByName('template')[0]
+const initializeReportingField = (placeholder) => {
+  const template = document.getElementById('template')
+  const contents = template.innerHTML
+  const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`^.*\\[${escaped}\\].*$`, 'm');
+  const reportingParagraph = contents.match(regex);
+  const reportingField = document.getElementById('reporting')
+  const reportText = reportingField.value
+  reportingField.value = reportingParagraph.replace(placeholder, reportText)
+}
+
+const updateTemplate = (placeholder, content) => {
+  const template = document.getElementById('template')
   const contents = template.innerHTML
   const updatedContent = contents.replace(placeholder, content)
   template.innerHTML = updatedContent

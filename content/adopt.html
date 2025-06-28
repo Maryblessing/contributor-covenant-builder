@@ -1,7 +1,7 @@
 +++
 title = "Adopt Contributor Covenant"
 layout = "banner-grid"
-versionUrl = "3/0"
+version = "3.0"
 polyfills = [
   "/scripts/builder.js"
 ]
@@ -23,44 +23,20 @@ polyfills = [
   <p><a onclick="revealStep('step-02');">Next</a></p>
 </article>
 
-<article class="step hidden" id="step-02">
-  <h2>Step 2 of 8: Our Pledge</h2>
-  <p>Instructions go here.</p>
-  <p><a onclick="revealStep('step-01');">Back</a> | <a onclick="revealStep('step-03');">Next</a></p>
-</article>
-
-<article class="step hidden" id="step-03">
-  <h2>Step 3 of 8: Encouraged Behaviors</h2>
-  <p>Instructions go here.</p>
-  <p><a onclick="revealStep('step-02');">Back</a> | <a onclick="revealStep('step-04');">Next</a></p>
-</article>
-
-<article class="step hidden" id="step-04">
-  <h2>Step 4 of 8: Restricted Behaviors</h2>
-  <p>Instructions go here.</p>
-  <p><a onclick="revealStep('step-03');">Back</a> | <a onclick="revealStep('step-05');">Next</a></p>
-</article>
-
-<article class="step hidden" id="step-05">
-  <h2>Step 5 of 8: Other Restrictions</h2>
-  <p>Instructions go here.</p>
-  <p><a onclick="revealStep('step-04');">Back</a> | <a onclick="revealStep('step-06');">Next</a></p>
-</article>
-
-<article class="step hidden" id="step-06">
-  <h2>Step 6 of 8: When to Report</h2>
-  <p>Instructions go here.</p>
-
-  <p><em>ENTER REPORTING MECHANISM</em></p>
-
+<article class="step" id="step-02">
+  <h2>Step 2 of 8: How to Report</h2>
+  <p>Please provide instructions on how to report an issue, exactly the way you want them to appear.
+  <textarea id="reporting"></textarea>
   <code>contents.replace(placeholder, content)</code>
 
-  <p><a onclick="revealStep('step-05');">Back</a> | <a onclick="revealStep('step-07');">Next</a></p>
+  <p><a onclick="revealStep('step-01');">Back</a> | <a onclick="revealStep('step-03');">Next</a></p>
 </article>
 
 <article class="step hidden" id="step-07">
   <h2>Step 7 of 8: Addressing and Repairing Harm</h2>
   <p>Instructions go here.</p>
+
+
   <p><a onclick="revealStep('step-06');">Back</a> | <a onclick="revealStep('step-08');">Next</a></p>
 </article>
 
@@ -73,6 +49,11 @@ polyfills = [
   <p><a onclick="revealStep('step-07');">Back</a></p>
 </article>
 
+<h2>Preview</h2>
+<div id="preview" style="padding: 1rem; border: 3px solid #900; white-space: pre; text-align: left; height: 15rem; overflow-x: auto; text-wrap: wrap;"></div>
+
+
+
 <script language="javascript">
-  initializeTemplate('{{< param "versionUrl" >}}');
+  initializeTemplate('{{< param "version" >}}');
 </script>
