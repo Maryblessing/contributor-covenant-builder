@@ -15,45 +15,34 @@ polyfills = [
 </article>
 
 <article class="step hidden" id="step-01">
-  <h2>Step 1 of 8: About Your Community</h2>
+  <h2>Step 1 of 4: Select Your Language</h2>
   <p>Instructions go here.</p>
-
-  <p><em>SELECT A LANGUAGE</em></p>
-
   <p><a onclick="revealStep('step-02');">Next</a></p>
 </article>
 
 <article class="step" id="step-02">
-  <h2>Step 2 of 8: How to Report</h2>
+  <h2>Step 2 of 4: Reporting Instructions</h2>
   <p>Please provide instructions on how to report an issue, exactly the way you want them to appear.
   <textarea id="reporting"></textarea>
-  <code>contents.replace(placeholder, content)</code>
-
   <p><a onclick="revealStep('step-01');">Back</a> | <a onclick="revealStep('step-03');">Next</a></p>
 </article>
 
-<article class="step hidden" id="step-07">
-  <h2>Step 7 of 8: Addressing and Repairing Harm</h2>
+<article class="step hidden" id="step-03">
+  <h2>Step 3 of 4: Addressing and Repairing Harm</h2>
   <p>Instructions go here.</p>
-
-
-  <p><a onclick="revealStep('step-06');">Back</a> | <a onclick="revealStep('step-08');">Next</a></p>
+  <p><a onclick="revealStep('step-02');">Back</a> | <a onclick="revealStep('step-04');">Next</a></p>
 </article>
 
 <article class="step hidden" id="step-08">
-  <h2>Step 8 of 8: Download your Code of Conduct</h2>
+  <h2>Step 4 of 4: Review and Download your Code of Conduct</h2>
   <p>Instructions go here.</p>
-
-  <p><em>DOWNLOAD TEXT OR MARKDOWN</em></p>
-
-  <p><a onclick="revealStep('step-07');">Back</a></p>
+  <p><a onclick="revealStep('step-03');">Back</a></p>
 </article>
 
 <h2>Preview</h2>
 <div id="preview" style="padding: 1rem; border: 3px solid #900; white-space: pre; text-align: left; height: 15rem; overflow-x: auto; text-wrap: wrap;"></div>
 
-
-
 <script language="javascript">
-  initializeTemplate('{{< param "version" >}}');
+  initializeBuilder('{{< param "version" >}}');
+  initializeReportingField('{{< reporting_placeholder >}}');
 </script>

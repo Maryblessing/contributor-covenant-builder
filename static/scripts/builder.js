@@ -6,42 +6,32 @@ const readTemplate = async (url) => {
   return await response.text()
 }
 
-const initializeTemplate = async (version) => {
+const initializeBuilder = async (version) => {
   const versionPath = version.replace(".", "/")
   const sourceUrl =  window.location.href.replace("adopt/",`version/${versionPath}/code_of_conduct/code_of_conduct.md`)
-  const content = readTemplate(sourceUrl)
-  const template = document.createElement('template')
+  const content = await readTemplate(sourceUrl)
   const preview = document.getElementById('preview')
-  template.id = 'template'
-  template.innerHTML = content
-  document.body.appendChild(template)
-  preview.innerHTML = await content
-  return template
+  preview.innerHTML = content
 }
 
 const initializeReportingField = (placeholder) => {
-  const template = document.getElementById('template')
-  const contents = template.innerHTML
-  const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const regex = new RegExp(`^.*\\[${escaped}\\].*$`, 'm');
-  const reportingParagraph = contents.match(regex);
+  const preview = document.getElementById('preview')
   const reportingField = document.getElementById('reporting')
-  const reportText = reportingField.value
-  reportingField.value = reportingParagraph.replace(placeholder, reportText)
+  if (reportingField) {
+    reportingField.value = placeholder
+  }
 }
 
 const updateTemplate = (placeholder, content) => {
-  const template = document.getElementById('template')
-  const contents = template.innerHTML
-  const updatedContent = contents.replace(placeholder, content)
-  template.innerHTML = updatedContent
-  return template
+  const preview = document.getElementById('preview')
+  if (preview) {
+    const contents = preview.content
+    const updatedContent = contents.replace(placeholder, content)
+    preview.innerHTML = updatedContent
+  }
+  return preview
 }
 
-/**
- * revealStep toggles visibility for the specified step element.
- * @param {string} elemId ID of the container to make visible.
- */
 const revealStep = (elemId) => {
   const steps = document.querySelectorAll('.step');
   const elem = document.getElementById(elemId);

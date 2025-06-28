@@ -3,7 +3,7 @@ title = "Contributor Covenant 3"
 version = "3.0"
 aliases = ["/version/3/0"]
 reportingPlaceholder = "[Add the means of reporting here.]"
-remediesPlaceholder = "[The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
+remediesPlaceholder = "[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
 +++
 
 # Contributor Covenant 3.0
@@ -46,7 +46,7 @@ We agree to restrict the following behaviors in our community. Instances, threat
 ## Reporting an Issue
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. Violations should be reported to them via [ADD A MEANS OF REPORTING]. Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
+When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. [ Add the means of reporting here. ]. Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
 
 Community Moderators will investigate all reports of code of conduct violations. While investigating, they may review messages, logs, and recordings, or interview witnesses and other participants. We keep investigation and enforcement procedures as transparent as possible while prioritizing safety and confidentiality.
 
@@ -56,7 +56,7 @@ Wherever possible and reasonable, Community Moderators encourage first making an
 Sometimes an issue is so serious or emotional that you may not feel safe raising it directly with a fellow contributor, or you may raise the issue without resolution.  These types of issues are what a formal reporting process is best at handling.  Please keep in mind when considering how to address an issue that a formal process may be slow, and receiving a formal warning can add more emotion to a situation. However, dealing with an issue through official reporting channels can be a more impactful learning opportunity for the community.
 
 ## Addressing and Repairing Harm
-[The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]
+[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]
 
 If an investigation by the Community Moderators finds that this Code of Conduct has been violated, the following enforcement ladder may be used to determine how best to repair harm, based on the incident's impact on the individuals involved and the community as a whole. Depending on the severity of a violation, lower rungs on the ladder may be skipped.
 
