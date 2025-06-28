@@ -10,35 +10,21 @@ const initializeBuilder = async (version, placeholder) => {
   const versionPath = version.replace(".", "/")
   const sourceUrl =  window.location.href.replace("adopt/",`version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = await readTemplate(sourceUrl)
-  const preview = document.getElementById('preview')
-  preview.innerHTML = content
 
+  // Preview box
+  const preview = document.getElementById('preview')
+  if (preview) { preview.innerHTML = content }
+
+  // Immutable cache
+  const template = document.getElementById('template')
+  if (template) { template.innerHTML = content }
 
   const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const regex = new RegExp(`^.*${escaped}.*$`, 'm');
   const match = content.match(regex);
 
-  console.log(match)
-
   const reportingField = document.getElementById('reporting')
-  if (reportingField) {
-    reportingField.value = match
-  }
-}
-
-const initializeReportingField = (placeholder) => {
-  const preview = document.getElementById('preview')
-  const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const regex = new RegExp(`^.*${escaped}.*$`, 'm');
-  const templateText = preview.innerHTML
-  const match = templateText.match(regex);
-
-  console.log(templateText)
-
-  const reportingField = document.getElementById('reporting')
-  if (reportingField) {
-    reportingField.value = templateText
-  }
+  if (reportingField) { reportingField.value = match }
 }
 
 const updateTemplate = (placeholder, content) => {

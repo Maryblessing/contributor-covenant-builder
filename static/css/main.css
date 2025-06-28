@@ -708,8 +708,12 @@ area {
 }
 
 #preview {
-  height: 20rem;
+  /* height: 30rem; */
+  background: var(--color-grey-subtle);
+  width: 75%;
+  margin: 0 auto;
 }
+
 @media (min-width: 300px) {
 
   body {
