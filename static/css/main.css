@@ -666,6 +666,11 @@ textarea {
     color: var(--color-white);
 }
 
+.highlight {
+  background: var(--color-yellow);
+  border: 1px solid var(--color-grey);
+}
+
 /* Interactive Map */
 
 .map-container {

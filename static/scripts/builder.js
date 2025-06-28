@@ -18,10 +18,10 @@ const initializeBuilder = async (version) => {
     const match = content.match(regex)
     reportingField.value = match
     reportingField.addEventListener("focus", (event) => {
-      updateTemplate('reporting')
+      updatePreview('reporting')
     });
     reportingField.addEventListener("blur", (event) => {
-      updateTemplate('reporting')
+      updatePreview('reporting')
     });
   }
 
@@ -33,20 +33,20 @@ const initializeBuilder = async (version) => {
     const match = content.match(regex)
     enforcementField.value = match
     enforcementField.addEventListener("focus", (event) => {
-      updateTemplate('enforcement')
+      updatePreview('enforcement')
     });
     enforcementField.addEventListener("blur", (event) => {
-      updateTemplate('enforcement')
+      updatePreview('enforcement')
     });
   }
 
 }
 
-const updateTemplate = (elemId) => {
+const updatePreview = (elemId) => {
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
   const field = document.getElementById(elemId)
-  if (!template || !field) { return }
+  if (!template || !field || !preview) { return }
 
   const placeholder = field.dataset.placeholder
   const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
@@ -79,21 +79,22 @@ const scrollPreview = (text) => {
 
   const textNode = treeWalker.nextNode()
   if (textNode) {
-    const index = textNode.nodeValue.indexOf(text);
+    const index = textNode.nodeValue.indexOf(text)
     if (index === -1) return;
 
-    const range = document.createRange();
-    range.setStart(textNode, index);
-    range.setEnd(textNode, index + text.length);    const rect = range.getBoundingClientRect()
+    const range = document.createRange()
+    range.setStart(textNode, index)
+    range.setEnd(textNode, index + text.length)
+    const rect = range.getBoundingClientRect()
     const containerRect = container.getBoundingClientRect()
     const offsetTop = rect.top - containerRect.top + container.scrollTop
     container.scrollTo({
       top: offsetTop,
       behavior: 'smooth'
     });
-    const span = document.createElement('span');
-    span.style.backgroundColor = 'yellow';
-    range.surroundContents(span);
+    const span = document.createElement('span')
+    span.classList.add('highlight')
+    range.surroundContents(span)
   }
 
 }
@@ -113,7 +114,7 @@ const copyPreviewToClipboard = () => {
   const preview = document.getElementById('preview')
   if (!preview) { return }
 
-  const completedText = preview.innerHTML.replace()
+  const completedText = preview.innerHTML
   const regex = RegExp('<span.+</?span>\n','m')
   const match = completedText.match(regex)
   const cleanText = completedText.replace(match, "")
