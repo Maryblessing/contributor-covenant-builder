@@ -23,7 +23,7 @@ polyfills = [
 <article class="step" id="step-02">
   <h2>Step 2 of 4: Reporting Instructions</h2>
   <p>Please provide instructions on how to report an issue, exactly the way you want them to appear.
-  <textarea id="reporting"></textarea>
+  <textarea class="builder" id="reporting"></textarea>
   <p><a onclick="revealStep('step-01');">Back</a> | <a onclick="revealStep('step-03');">Next</a></p>
 </article>
 
@@ -43,6 +43,5 @@ polyfills = [
 <div id="preview" style="padding: 1rem; border: 3px solid #900; white-space: pre; text-align: left; height: 15rem; overflow-x: auto; text-wrap: wrap;"></div>
 
 <script language="javascript">
-  initializeBuilder('{{< param "version" >}}');
-  initializeReportingField('{{< reporting_placeholder >}}');
+  initializeBuilder('{{< param "version" >}}', '{{< reporting_placeholder >}}');
 </script>

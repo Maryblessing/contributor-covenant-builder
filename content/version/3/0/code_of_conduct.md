@@ -46,7 +46,7 @@ We agree to restrict the following behaviors in our community. Instances, threat
 ## Reporting an Issue
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. [ Add the means of reporting here. ]. Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
+When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. [Add the means of reporting here.]. Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
 
 Community Moderators will investigate all reports of code of conduct violations. While investigating, they may review messages, logs, and recordings, or interview witnesses and other participants. We keep investigation and enforcement procedures as transparent as possible while prioritizing safety and confidentiality.
 

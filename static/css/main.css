@@ -427,6 +427,10 @@ textarea {
   padding: 1rem;
 }
 
+textarea.builder {
+  height: 15rem;
+}
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
