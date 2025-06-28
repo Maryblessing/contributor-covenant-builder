@@ -17,6 +17,9 @@ const initializeBuilder = async (version) => {
     const regex = new RegExp(`^.*${escaped}.*$`, 'm')
     const match = content.match(regex)
     reportingField.value = match
+    reportingField.addEventListener("focus", (event) => {
+      updateTemplate('reporting')
+    });
     reportingField.addEventListener("blur", (event) => {
       updateTemplate('reporting')
     });
@@ -29,6 +32,9 @@ const initializeBuilder = async (version) => {
     const regex = new RegExp(`^.*${escaped}.*$`, 'm')
     const match = content.match(regex)
     enforcementField.value = match
+    enforcementField.addEventListener("focus", (event) => {
+      updateTemplate('enforcement')
+    });
     enforcementField.addEventListener("blur", (event) => {
       updateTemplate('enforcement')
     });
@@ -44,13 +50,14 @@ const updateTemplate = (elemId) => {
 
   const placeholder = field.dataset.placeholder
   const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-  const regex = new RegExp(`^.*${escaped}.*$`, 'm')
+  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
   const content = template.innerHTML
   const replacement = field.value
   const match = content.match(regex)
-  const updatedContent = content.replace(match, replacement)
+  const updatedContent = content.replace(match, replacement).replace('\n\n\n', '\n\n')
   preview.innerHTML = updatedContent
   scrollPreview(replacement)
+  cleanUpWhiteSpace()
   return template
 }
 
@@ -58,7 +65,7 @@ const scrollPreview = (text) => {
   const container = document.getElementById('preview')
   if (!container) { return }
 
-  const walker = document.createTreeWalker(
+  const treeWalker = document.createTreeWalker(
     container,
     NodeFilter.SHOW_TEXT,
     {
@@ -71,7 +78,7 @@ const scrollPreview = (text) => {
     false
   );
 
-  const textNode = walker.nextNode()
+  const textNode = treeWalker.nextNode()
   if (textNode) {
     const index = textNode.nodeValue.indexOf(text);
     if (index === -1) return;
@@ -92,10 +99,11 @@ const scrollPreview = (text) => {
 
 }
 
-
 const revealStep = (elemId) => {
   const steps = document.querySelectorAll('.step')
   const elem = document.getElementById(elemId)
+  if (!elem) { return }
+
   steps.forEach((step, i) => {
     step.classList.add('hidden')
   });
