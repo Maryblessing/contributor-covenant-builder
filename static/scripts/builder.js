@@ -1,43 +1,19 @@
-async function readTemplate(versionUrl) {
-  try {
-    const response = await fetch(versionUrl);
-    if (!response.ok) {
-      throw new Error('HTTP error when retrieving ${versionUrl}: ${response.status}');
-    }
-    const text = await response.text();
-    return text;
-  } catch (error) {
-    console.error("Error fetching the URL #{versionUrl}:", error);
-    return null;
+const readTemplate = async (url) => {
+  const response = await fetch(url)
+  if (!response.ok) {
+    throw new Error(`Error retrieving ${url}: ${response.status}`)
   }
+  return await response.text()
 }
 
-/**
- * Copies text to clipboard.
- * Uses async browser Clipboard API.
- * adapted from Dean Taylor, via StackOverflow
- * @see https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
- *
- * @param {string} text
- */
-const copyToClipboard = (text = ``) => {
-  navigator.clipboard.writeText(text)
-}
-
-const initializeTemplate = (version) => {
-  const sourceUrl =  window.location.href.replace()
-  const content = readTemplate(sourceUrl)
-}
-
-/**
- * buildHTML instantiates HTML nodes from a string.
- * @param {string} content Any text.
- * @returns {Object[]} An HTML node containing that content.
- */
-const populateTemplate = (content) => {
+const initializeTemplate = async (version) => {
+  const sourceUrl =  window.location.href.replace("adopt/",`version/${version}/code_of_conduct/code_of_conduct.md`)
+  const content = await readTemplate(sourceUrl)
   const template = document.createElement('template')
+  template.id = 'template'
   template.innerHTML = content
-  return template.content.cloneNode(true)
+  document.body.appendChild(template)
+  return template
 }
 
 const populateReporting = (placeholder, content) => {
@@ -48,7 +24,7 @@ const populateReporting = (placeholder, content) => {
 }
 
 const populateRemedies = (content) => {
-  const template = document.getElementsByName('template')[0]
+  const template = document.getElementById('template')
   const contents = template.innerHtml
   populateTemplate(contents.replace("[ Update with your custom enforcement policy ]", content))
 }

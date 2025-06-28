@@ -6,7 +6,7 @@ reportingPlaceholder = "[Add the means of reporting here.]"
 remediesPlaceholder = "[The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
 +++
 
-# Contributor Covenant {{< param version >}}
+# Contributor Covenant 3.0
 
 ## Our Pledge
 We pledge to make our community safe, accessible, and equitable for all.

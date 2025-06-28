@@ -1,7 +1,7 @@
 +++
 title = "Adopt Contributor Covenant"
 layout = "banner-grid"
-version = "3/0"
+version = "/version/3/0/"
 polyfills = [
   "/scripts/builder.js"
 ]
@@ -73,3 +73,6 @@ polyfills = [
   <p><a onclick="revealStep('step-07');">Back</a></p>
 </article>
 
+<script language="javasript">
+  await initializeTemplate('{{ params version }}');
+</script>
