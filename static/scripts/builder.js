@@ -1,6 +1,6 @@
-const initializeBuilder = async (version) => {
+const initializeBuilder = async (languageCode, version) => {
   const versionPath = version.replace(".", "/")
-  const sourceUrl =  window.location.href.replace("adopt/",`version/${versionPath}/code_of_conduct/code_of_conduct.md`)
+  const sourceUrl =  window.location.href.replace("adopt/",`${languageCode}/version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = await readTemplate(sourceUrl)
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
@@ -172,6 +172,10 @@ const downloadPreview = () => {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+}
+
+const setLanguage = (name, version) => {
+  initializeBuilder(name, version)
 }
 
 const readTemplate = async (url) => {

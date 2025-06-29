@@ -1,6 +1,7 @@
 +++
 title = "Adopt Contributor Covenant"
 layout = "banner-grid"
+language = ""
 version = "3.0"
 polyfills = [
   "/scripts/builder.js"
@@ -16,7 +17,10 @@ polyfills = [
 
 <article class="step hidden" id="step-01">
   <h2>Step 1 of 4: Select Your Language</h2>
-  <p>Instructions go here.</p>
+  <p>Select your language from the list below.</p>
+
+  {{< translation_select >}}
+
   <p><a onclick="revealStep('step-02');">Next</a></p>
 </article>
 
@@ -44,5 +48,5 @@ polyfills = [
 <div class="hidden" id="template"></div>
 
 <script language="javascript">
-  initializeBuilder('{{< param "version" >}}');
+  initializeBuilder('{{< param "language" >}}','{{< param "version" >}}');
 </script>
