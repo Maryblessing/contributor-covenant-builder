@@ -10,9 +10,12 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
   template.innerHTML = content
   preview.innerHTML = content
 
+  updatePreview('')
+
   const reportingField = document.getElementById('reporting')
   if (reportingField) {
     reportingField.dataset.placeholder = reportingPlaceholder
+    reportingField.value = reportingPlaceholder
     reportingField.addEventListener("focus", (event) => {
       updatePreview('reporting')
     });
@@ -27,6 +30,7 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
   const enforcementField = document.getElementById('enforcement')
   if (enforcementField) {
     enforcementField.dataset.placeholder = enforcementPlaceholder
+    enforcementField.value = enforcementPlaceholder
     enforcementField.addEventListener("focus", (event) => {
       updatePreview('enforcement')
     });
@@ -38,7 +42,6 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
     });
   }
 
-  updatePreview('')
 }
 
 const updatePreview = (elemId) => {

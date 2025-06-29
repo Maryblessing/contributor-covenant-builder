@@ -1,140 +1,101 @@
 +++
 version = "3.0"
 aliases = ["/version/3/0/fr"]
-reportingPlaceholder = "[INSÉRER UNE ADRESSE EMAIL]"
-enforcementPlaceholder = "[NOTE: about the enforcement guidelines]"
+reportingPlaceholder = "[Ajoutez ici les modalités de signalement.]"
+enforcementPlaceholder = "[NOTE : Les solutions proposées ci-dessous sont des suggestions issues des meilleures pratiques en matière d’application de codes de conduite. Si votre communauté dispose déjà de ses propres procédures, modifiez cette section pour les refléter.]"
 +++
 
-# Code de conduite _Contributor Covenant_
+# Pacte du Contributeur 3.0
 
 ## Notre engagement
+Nous nous engageons à faire de notre communauté un espace sûr, accessible et équitable pour toutes et tous.
 
-En tant que membres, contributeur·trice·s et dirigeant·e·s, nous nous
-engageons à faire de la participation à notre communauté
-une expérience sans harcèlement, quel que soit l'âge,
-la taille corporelle, le handicap visible ou invisible, l'appartenance ethnique,
-les caractéristiques sexuelles, l'identité et l'expression de genre,
-le niveau d'expérience, l'éducation, le statut socio-économique,
-la nationalité, l'apparence personnelle, la race, la religion,
-ou l'identité et l'orientation sexuelle.
+Nous nous engageons à favoriser un environnement qui respecte et promeut la dignité, les droits et les contributions de chaque individu, quelle que soit sa race, son origine ethnique, sa caste, sa couleur, son âge, ses caractéristiques physiques, sa neurodiversité, son handicap, son sexe ou genre, son identité ou expression de genre, son orientation sexuelle, sa langue, sa philosophie ou religion, son origine nationale ou sociale, sa position socio-économique, son niveau d'éducation ou tout autre statut. Les mêmes privilèges de participation sont accordés à toute personne qui participe de bonne foi et conformément à ce Pacte.
 
-Nous nous engageons à agir et interagir de manière à contribuer à une communauté
-ouverte, accueillante, diversifiée, inclusive et saine.
+## Comportements encouragés
+Tout en reconnaissant les différences de normes sociales, nous nous efforçons toutes et tous de respecter les attentes de notre communauté en matière de comportements positifs. Nous comprenons également que nos paroles et actions peuvent être interprétées différemment selon la culture, le parcours ou la langue maternelle.
 
-## Nos critères
+En tenant compte de ces considérations, nous acceptons d’agir avec attention les un·es envers les autres, et de nous comporter selon des valeurs communes, notamment :
 
-Exemples de comportements qui contribuent à créer un environnement positif :
+1. Respecter le *but de notre communauté*, nos activités et nos façons de nous rassembler.
+2. Interagir avec *gentillesse et honnêteté*.
+3. Respecter la *diversité des points de vue* et des expériences.
+4. *Assumer la responsabilité* de nos actions et de nos contributions.
+5. Donner et recevoir *des retours constructifs* avec bienveillance.
+6. S'engager à *réparer les torts* lorsqu’ils se produisent.
+7. Adopter tout autre comportement qui favorise et soutient le *bien-être de notre communauté*.
 
-* Faire preuve d'empathie et de bienveillance envers les autres
-* Être respectueux des opinions, points de vue et expériences divergents
-* Donner et recevoir avec grâce les critiques constructives
-* Assumer ses responsabilités et s'excuser auprès des personnes affectées par nos erreurs et apprendre de ces expériences
-* Se concentrer sur ce qui est le meilleur non pas uniquement pour nous en tant qu'individu, mais aussi pour l'ensemble de la communauté
+## Comportements interdits
+Nous convenons d’interdire les comportements suivants au sein de notre communauté. Les cas, menaces ou encouragements de ces comportements constituent des violations de ce Code de Conduite.
 
-Exemples de comportements inacceptables :
+1. *Harcèlement*. Ne pas respecter des limites clairement exprimées ou attirer une attention personnelle non sollicitée après une demande explicite d’arrêt.
+2. *Attaques personnelles*. Faire des commentaires insultants, dénigrants ou péjoratifs à l’encontre d’un membre ou d’un groupe de la communauté.
+3. *Stéréotypage ou discrimination*. Décrire la personnalité ou le comportement d’une personne sur la base d’identités ou de caractéristiques immuables.
+4. *Sexualisation*. Adopter un comportement généralement considéré comme inapproprié ou trop intime dans le contexte de la communauté.
+5. *Violation de la confidentialité*. Partager ou utiliser des informations personnelles ou privées sans autorisation.
+6. *Mise en danger*. Causer, encourager ou menacer de la violence ou d'autres formes de préjudices envers une personne ou un groupe.
+7. Tout autre comportement qui *met en danger le bien-être* de notre communauté.
 
-* L'utilisation de langage ou d'images sexualisés et d'attentions ou d'avances sexuelles de toute nature
-* Le _trolling_, les commentaires insultants ou désobligeants et les attaques
-  personnelles ou d'ordre politique
-* Le harcèlement en public ou en privé
-* La publication d'informations privées d'autrui, telle qu'une
-  adresse postale ou une adresse électronique, sans leur autorisation explicite
-* Toute autre conduite qui pourrait raisonnablement être considérée comme inappropriée
-  dans un cadre professionnel
+### Autres restrictions
+1. *Usurpation d'identité*. Se faire passer pour une autre personne ou adopter une fausse identité pour contourner les mécanismes d’application.
+2. *Omission de sources*. Ne pas créditer correctement les sources du contenu partagé.
+3. *Matériel promotionnel*. Partager du contenu marketing ou commercial d’une manière qui sort du cadre des usages de la communauté.
+4. *Communication irresponsable*. Diffuser du contenu — ou y faire référence — qui inclut ou décrit des comportements interdits sans les encadrer de manière responsable.
 
-## Responsabilités d'application
+## Signaler un problème
+Des tensions peuvent apparaître entre membres de la communauté même lorsqu’ils ou elles cherchent sincèrement à collaborer. Tous les conflits ne représentent pas une violation du code de conduite. Ce Code vise à renforcer les comportements et les normes attendues, afin d’aider à éviter les conflits et à réduire les préjudices.
 
-Les dirigeant·e·s de la communauté sont chargé·e·s de clarifier et de faire respecter nos normes de
-comportements acceptables et prendront des mesures correctives appropriées et équitables en
-réponse à tout comportement qu'ils ou elles jugent inapproprié, menaçant, offensant ou nuisible.
+Lorsqu’un incident survient, il est important de le signaler rapidement. Les Modérateur·ices communautaires sont responsables de l’application de ce Code de Conduite. [Ajoutez ici les modalités de signalement.] Ils et elles prennent les signalements au sérieux et feront tout leur possible pour y répondre rapidement.
 
-Les dirigeant·e·s de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter
-les commentaires, les contributions, le code, les modifications de wikis, les rapports d'incidents ou de bogues et autres contributions qui
-ne sont pas alignés sur ce code de conduite, et communiqueront les raisons des décisions de modération
-le cas échéant.
+Les Modérateur·ices communautaires enquêteront sur tous les signalements de violations. L’enquête peut inclure la consultation de messages, de journaux, d’enregistrements, ou des entretiens avec des témoins ou des personnes concernées. Les procédures d’enquête et de mise en œuvre sont aussi transparentes que possible, tout en donnant la priorité à la sécurité et à la confidentialité.
 
-## Portée d'application
+## Réparer les torts causés
+[NOTE : Les solutions proposées ci-dessous sont des suggestions issues des meilleures pratiques en matière d’application de codes de conduite. Si votre communauté dispose déjà de ses propres procédures, modifiez cette section pour les refléter.]
 
-Ce code de conduite s'applique à la fois au sein des espaces du projet ainsi que
-dans les espaces publics lorsqu'un individu représente officiellement le projet ou sa
-communauté. Font parties des exemples de représentation d'un projet ou d'une
-communauté l'utilisation d'une adresse électronique officielle, la publication sur
-les réseaux sociaux à l'aide d'un compte officiel ou le fait d'agir en tant que représentant·e désigné·e
-lors d'un événement en ligne ou hors-ligne.
+Si une enquête des Modérateur·ices communautaires conclut à une violation du Code de Conduite, l’échelle suivante peut être utilisée pour choisir la meilleure façon de réparer les torts, en fonction de l’impact de l’incident sur les personnes concernées et sur la communauté. Selon la gravité de la violation, certaines étapes peuvent être ignorées.
 
-## Application
+### 1. Avertissement
+**Événement :** Une violation unique ou une série d’incidents.
 
-Les cas de comportements abusifs, harcelants ou tout autre comportement
-inacceptables peuvent être signalés aux dirigeant·e·s de la communauté responsables de l'application du code de conduite à
-[INSÉRER UNE ADRESSE EMAIL].
-Toutes les plaintes seront examinées et feront l'objet d'une enquête rapide et équitable.
+**Conséquence :** Un avertissement écrit et privé de la part des Modérateur·ices communautaires.
 
-Tou·te·s les dirigeant·e·s de la communauté sont tenu·e·s de respecter la vie privée et la sécurité des
-personnes ayant signalé un incident.
+**Réparation :** Exemples de réparation : des excuses écrites en privé, la reconnaissance de la responsabilité, et la clarification des attentes.
 
-## Directives d'application
+### 2. Limitation temporaire des activités
+**Événement :** Répétition d’une violation ayant déjà entraîné un avertissement, ou première occurrence d’une violation plus grave.
 
-[NOTE: about the enforcement guidelines]
+**Conséquence :** Un avertissement écrit et privé avec une période de réflexion limitée dans le temps, destinée à souligner la gravité de la situation et à permettre aux membres de la communauté d’en traiter les conséquences. Cette période peut s’appliquer à des canaux ou à des interactions spécifiques.
 
-Les dirigeant·e·s de communauté suivront ces directives d'application sur l'impact communautaire afin de déterminer
-les conséquences de toute action qu'ils jugent contraire au présent code de conduite :
+**Réparation :** Exemples de réparation : respecter l’esprit de cette période de réflexion, utiliser ce temps pour réfléchir à ses actions et à leur impact, et revenir dans les espaces communautaires avec soin.
 
-### 1. Correction
+### 3. Suspension temporaire
+**Événement :** Une série de violations répétées malgré des avertissements, ou une violation grave isolée.
 
-**Impact communautaire** : utilisation d'un langage inapproprié ou tout autre comportement jugé
-non professionnel ou indésirable dans la communauté.
+**Conséquence :** Un avertissement écrit et privé, assorti de conditions à remplir pour pouvoir revenir. En général, la suspension temporaire offre un temps de recul pour réfléchir au comportement et aux mesures correctives possibles.
 
-**Conséquence** : un avertissement écrit et privé de la part des dirigeant·e·s de la communauté, clarifiant
-la nature du non-respect et expliquant pourquoi
-le comportement était inapproprié. Des excuses publiques peuvent être demandées.
+**Réparation :** Exemples de réparation : respecter l’esprit de la suspension, remplir les conditions requises, et faire preuve de considération lors de la réintégration.
 
-### 2. Avertissement
+### 4. Exclusion permanente
+**Événement :** Un comportement de violation répétée que les étapes précédentes n’ont pas pu corriger, ou une violation suffisamment grave pour compromettre la sécurité de la communauté.
 
-**Impact communautaire** : un non-respect par un seul incident ou une série d'actions.
+**Conséquence :** L'accès à tous les espaces, outils et canaux de communication communautaires est retiré. La personne concernée peut être priée de ne plus interagir avec certains membres, par aucun moyen. Les exclusions permanentes doivent être rares, justifiées, et appliquées uniquement si toutes les autres options ont échoué.
 
-**Conséquence** : un avertissement avec des conséquences dû à la poursuite du comportement.
-Aucune interaction avec les personnes concernées, y compris l'interaction non sollicitée avec
-celles et ceux qui sont chargé·e·s de l'application de ce code de conduite, pendant une période déterminée.
-Cela comprend le fait d'éviter les interactions dans les espaces communautaires ainsi que sur les canaux externes
-comme les médias sociaux. Le non-respect de ces conditions peut entraîner
-un bannissement temporaire ou permanent.
+**Réparation :** Aucune réparation possible dans les cas d’une telle gravité.
 
-### 3. Bannissement temporaire
+Cette échelle de sanctions est une ligne directrice. Elle ne limite pas la capacité des Modérateur·ices communautaires à user de leur jugement dans l’intérêt supérieur de la communauté.
 
-**Impact communautaire** : un non-respect grave des normes communautaires, notamment
-un comportement inapproprié soutenu.
+## Attribution
+Ce Code de Conduite est adapté du Contributor Covenant, version 3.0, disponible en permanence à l’adresse :
+https://www.contributor-covenant.org/version/3/0/
 
-**Conséquence** : un bannissement temporaire de toutes formes d'interactions ou de
-communications avec la communauté pendant une période déterminée. Aucune interaction publique ou
-privée avec les personnes concernées, y compris les interactions non sollicitées
-avec celles et ceux qui appliquent ce code de conduite, n'est autorisée pendant cette période.
-Le non-respect de ces conditions peut entraîner un bannissement permanent.
+Contributor Covenant est géré par l’Organization for Ethical Source et sous licence CC BY-SA 4.0. Pour consulter une copie de cette licence :
+https://creativecommons.org/licenses/by-sa/4.0/
 
-### 4. Bannissement permanent
+Pour les réponses aux questions fréquentes sur le Contributor Covenant, voir la FAQ :
+https://www.contributor-covenant.org/faq
+Des traductions sont disponibles ici :
+https://www.contributor-covenant.org/translations
+Des ressources supplémentaires sur l’application et les lignes directrices communautaires sont accessibles à :
+https://www.contributor-covenant.org/resources
 
-**Impact communautaire** : démontrer un schéma récurrent de non-respect des normes de la
-communauté y compris un comportement inapproprié soutenu, le harcèlement d'un individu
-ainsi que l'agression ou le dénigrement de catégories d'individus.
-
-**Conséquence** : un bannissement permanent de toutes formes d'interactions publiques au sein de
-la communauté.
-
-## Attributions
-
-Ce code de conduite est adapté du
-[Contributor Covenant](https://www.contributor-covenant.org), version 2.0,
-disponible à
-[https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
-
-Les Directives d'application ont été inspirées par le
-[Code of conduct enforcement ladder][Mozilla CoC] de Mozilla.
-
-Pour obtenir des réponses aux questions courantes sur ce code de conduite, consultez la FAQ à
-[https://www.contributor-covenant.org/faq][FAQ]. Les traductions sont disponibles
-sur [https://www.contributor-covenant.org/translations][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+L’échelle de sanctions a été inspirée par le travail de l’équipe de conduite de Mozilla.
