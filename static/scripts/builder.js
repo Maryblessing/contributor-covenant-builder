@@ -142,12 +142,8 @@ const copyPreviewToClipboard = () => {
   const preview = document.getElementById('preview')
   if (!preview) { return }
 
-  clearHighlights()
-
   const completedText = preview.innerHTML
-  const regex = RegExp('<span.+</?span>\n','m')
-  const match = completedText.match(regex)
-  const cleanText = completedText.replace(match, "")
+  const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
   navigator.clipboard.writeText(cleanText).then(
     function () {
       console.log('Copied to clipboard.')
@@ -162,10 +158,9 @@ const downloadPreview = () => {
   const preview = document.getElementById('preview')
   if (!preview) { return }
 
-  clearHighlights()
-
   const completedText = preview.innerHTML
-  const blob = new Blob([completedText], { type: 'text/plain' });
+  const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
+  const blob = new Blob([cleanText], { type: 'text/plain' });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement('a');
