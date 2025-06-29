@@ -1,6 +1,7 @@
 +++
 version = "2.0"
 aliases = ["/version/2/0/da"]
+reportingPlaceholder = "[INDSÆT KONTAKTINFORMATION]"
 +++
 
 # Aftale om regler for deltagelse i fælleskabet
@@ -15,19 +16,11 @@ Vi lover at deltage og samarbejde på en måde, der bidrager til at gøre fælle
 
 Eksempler på hvordan der skabes en god stemning i vores fællesskab inkluderer:
 
-* At vise medfølelse og være venlig overfor andre.
-* At have respekt for andre meninger, synspunkter, og erfaringer.
-* At give og kærligt modtage konstruktiv feedback.
-* At tage ansvar og undskylde overfor dem, der bliver ramt af vores fejl og at lære af oplevelsen.
-* At fokusere på hvad der er bedst, ikke bare for os som individer, men for hele fællesskabet.
+* At vise medfølelse og være venlig overfor andre. * At have respekt for andre meninger, synspunkter, og erfaringer. * At give og kærligt modtage konstruktiv feedback. * At tage ansvar og undskylde overfor dem, der bliver ramt af vores fejl og at lære af oplevelsen. * At fokusere på hvad der er bedst, ikke bare for os som individer, men for hele fællesskabet.
 
 Eksempler på uacceptabel opførsel inkluderer:
 
-* Brug af vulgært sprog eller vulgære billeder og seksuel opmærksomhed eller tilnærmelser af nogen art.
-* Ondsindet provokation, fornærmende eller nedladende kommentater, personlige eller politiske angreb.
-* Offentlig eller privat chikane.
-* Offentliggørelse af andres private information, f.eks. deling af deres e-mail eller postadresse uden deres tilladelse.
-* Anden opførsel som ikke hører til i et professionelt miljø.
+* Brug af vulgært sprog eller vulgære billeder og seksuel opmærksomhed eller tilnærmelser af nogen art. * Ondsindet provokation, fornærmende eller nedladende kommentater, personlige eller politiske angreb. * Offentlig eller privat chikane. * Offentliggørelse af andres private information, f.eks. deling af deres e-mail eller postadresse uden deres tilladelse. * Anden opførsel som ikke hører til i et professionelt miljø.
 
 ## Ansvar for håndhævelse
 
@@ -65,8 +58,7 @@ Fællesskabets ledere følger denne Målestok for Alvorsgrad til at bestemme hvi
 
 **Alvorsgrad**: En alvorlig overtrædelse af fælleskabets standarder, f.eks. gentagende episoder med uacceptabel opførsel.
 
-**Konsekvens**:
-Et midlertidigt forbud mod deltagelse i kommunikation med fællesskabet i en angiven tidsperiode. Ingen offentlig eller privat interaktion med de involverede parter samt ingen uopfordret henvendelse til dem, der er ansvarlige for håndhævelse af vores fællesskabsregler er tilladt i denne periode. Overtrædelse af de disse betingelser kan medføre permanent udelukkelse fra fællesskabet.
+**Konsekvens**: Et midlertidigt forbud mod deltagelse i kommunikation med fællesskabet i en angiven tidsperiode. Ingen offentlig eller privat interaktion med de involverede parter samt ingen uopfordret henvendelse til dem, der er ansvarlige for håndhævelse af vores fællesskabsregler er tilladt i denne periode. Overtrædelse af de disse betingelser kan medføre permanent udelukkelse fra fællesskabet.
 
 ### 4. Permanent udelukkelse
 
@@ -82,8 +74,4 @@ Målestok for alvorsgrad var inspireret af [Mozilla's code of conduct enforcemen
 
 Find svar på spørgsmål om fællesskabsreglerne i vores FAQ på [https://www.contributor-covenant.org/faq][FAQ]. Oversættelser kan findes på [https://www.contributor-covenant.org/translations][oversættelser].
 
-[hjemmeside]: https://www.contributor-covenant.org
-[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[oversættelser]: https://www.contributor-covenant.org/translations
+[hjemmeside]: https://www.contributor-covenant.org [v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html [Mozilla CoC]: https://github.com/mozilla/diversity [FAQ]: https://www.contributor-covenant.org/faq [oversættelser]: https://www.contributor-covenant.org/translations

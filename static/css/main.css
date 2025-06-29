@@ -267,6 +267,7 @@ a:focus,
 a:hover {
   color: var(--color-primary-lighter);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 a[href="#TODO"]::before {
@@ -424,6 +425,10 @@ input[type="email"] {
 textarea {
   width: 90%;
   padding: 1rem;
+}
+
+textarea.builder {
+  height: 12rem;
 }
 
 input[type="text"]:focus,
@@ -661,6 +666,13 @@ textarea {
     color: var(--color-white);
 }
 
+.highlight {
+  background: var(--color-yellow);
+  border: 1px solid var(--color-grey);
+  border-radius: 3rem;
+  padding: 0 1rem;
+}
+
 /* Interactive Map */
 
 .map-container {
@@ -700,6 +712,19 @@ area {
 
 .language-info {
   display: none;
+}
+
+#preview {
+  height: 30rem;
+  background: var(--color-grey-subtle);
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 3px solid var(--color-grey-darker);
+  white-space: pre;
+  text-align: left;
+  overflow-x: auto;
+  text-wrap: wrap;
 }
 
 @media (min-width: 300px) {
