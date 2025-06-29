@@ -52,7 +52,7 @@ const updatePreview = (elemId) => {
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
   const field = document.getElementById(elemId)
-  if (!template || !preview || !field) { return }
+  if (!template || !preview) { return }
 
   const defaultText = template.innerHTML
   const matches = []
@@ -78,6 +78,13 @@ const updatePreview = (elemId) => {
   scrollPreview(scrollToText)
 
   return preview
+}
+
+const clearHighlights = () => {
+  const preview = document.getElementById('preview')
+  const content = preview.innerHTML
+  const clean = content.replace(/<\/?span[^>]*>/gi, '');
+  preview.innerHTML = clean
 }
 
 const scrollPreview = (text) => {
@@ -128,11 +135,14 @@ const revealStep = (elemId) => {
     step.classList.add('hidden')
   });
   elem.classList.remove('hidden')
+  clearHighlights()
 }
 
 const copyPreviewToClipboard = () => {
   const preview = document.getElementById('preview')
   if (!preview) { return }
+
+  clearHighlights()
 
   const completedText = preview.innerHTML
   const regex = RegExp('<span.+</?span>\n','m')
@@ -152,12 +162,10 @@ const downloadPreview = () => {
   const preview = document.getElementById('preview')
   if (!preview) { return }
 
-  const completedText = preview.innerHTML
-  const regex = RegExp('<span.+</?span>\n','m')
-  const match = completedText.match(regex)
-  const cleanText = completedText.replace(match, "")
+  clearHighlights()
 
-  const blob = new Blob([cleanText], { type: 'text/plain' });
+  const completedText = preview.innerHTML
+  const blob = new Blob([completedText], { type: 'text/plain' });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement('a');
