@@ -15,19 +15,11 @@ aliases = ["/version/2/0/cn"]
 
 有助于促进本社区积极环境的行为包括但不限于：
 
-* 与人为善、推己及人
-* 尊重不同的主张、观点和经历
-* 积极提出、耐心接受有益批评
-* 面对过失，承担责任、认真道歉、从中学习
-* 关注社区共同诉求，而非一己私利
+* 与人为善、推己及人 * 尊重不同的主张、观点和经历 * 积极提出、耐心接受有益批评 * 面对过失，承担责任、认真道歉、从中学习 * 关注社区共同诉求，而非一己私利
 
 不当行为包括但不限于：
 
-* 发布与性有关的言论或图像，以及任何形式的献殷勤或勾引
-* 挑衅行为、侮辱或贬损的言论、人身及政治攻击
-* 公开或私下骚扰
-* 未获明确授权擅自发布他人的资料，如地址、电子邮箱等
-* 其他有理由认定为违反职业操守的不当行为
+* 发布与性有关的言论或图像，以及任何形式的献殷勤或勾引 * 挑衅行为、侮辱或贬损的言论、人身及政治攻击 * 公开或私下骚扰 * 未获明确授权擅自发布他人的资料，如地址、电子邮箱等 * 其他有理由认定为违反职业操守的不当行为
 
 ## 落实之义务
 
@@ -43,8 +35,7 @@ aliases = ["/version/2/0/cn"]
 
 ## 贯彻落实
 
-如遇滥用、骚扰等不当行为，请通过［在此输入联系方式］向纪律检查委员举报。
-纪委将迅速审议并调查全部投诉。
+如遇滥用、骚扰等不当行为，请通过［在此输入联系方式］向纪律检查委员举报。 纪委将迅速审议并调查全部投诉。
 
 社区全体负责人有义务保密举报者信息。
 
@@ -82,11 +73,6 @@ aliases = ["/version/2/0/cn"]
 
 指导方针借鉴自[Mozilla纪检分级][Mozilla CoC]。
 
-此行为标准常见问题请洽：[https://www.contributor-covenant.org/faq][FAQ]。
-另有诸译本：[https://www.contributor-covenant.org/translations][translations]。
+此行为标准常见问题请洽：[https://www.contributor-covenant.org/faq][FAQ]。 另有诸译本：[https://www.contributor-covenant.org/translations][translations]。
 
-[homepage]:https://www.contributor-covenant.org
-[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+[homepage]:https://www.contributor-covenant.org [v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html [Mozilla CoC]: https://github.com/mozilla/diversity [FAQ]: https://www.contributor-covenant.org/faq [translations]: https://www.contributor-covenant.org/translations

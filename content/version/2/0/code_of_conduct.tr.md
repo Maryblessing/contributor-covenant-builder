@@ -1,6 +1,7 @@
 +++
 version = "2.0"
 aliases = ["/version/2/0"]
+reportingPlaceholder = "[BURAYA BİR İLETİŞİM ŞEKLİ YAZILACAK]"
 +++
 
 # Katkıcı Ahdi Topluluk Sözleşmesi
@@ -15,19 +16,11 @@ Açık, misafirperver, çeşitliliği destekleyen, kapsayıcı ve sağlıklı bi
 
 Bizim için olumlu bir topluluk ortamına katkıda bulunan davranış örnekleri şunları içerir:
 
-- Diğer insanlara karşı empati ve nezaket göstermek
-- Farklı görüşlere, bakış açılarına ve deneyimlere saygılı olmak
-- Yapıcı geri bildirim verme ve geri bildirimi zarifçe kabul etme
-- Sorumluluğu kabul etmek ve hatalarımızdan etkilenenlerden özür dilemek, ve bu deneyimlerden öğrenme
-- Sadece kendimiz için değil, topluluk için en iyi olana odaklanmak
+- Diğer insanlara karşı empati ve nezaket göstermek - Farklı görüşlere, bakış açılarına ve deneyimlere saygılı olmak - Yapıcı geri bildirim verme ve geri bildirimi zarifçe kabul etme - Sorumluluğu kabul etmek ve hatalarımızdan etkilenenlerden özür dilemek, ve bu deneyimlerden öğrenme - Sadece kendimiz için değil, topluluk için en iyi olana odaklanmak
 
 Kabul edilemez davranış örnekleri şunları içerir:
 
-- Cinselleştirilmiş dil veya imgelerin ve cinsel ilgi veya her türlü cinsel avantajın kullanımı
-- Trolleme, hakaret veya aşağılayıcı yorumlar ve kişisel veya politik saldırılar
-- Açıktan veya gizli taciz
-- Açık izinleri olmadan fiziksel adresleri veya e-posta gibi başkalarının özel bilgilerini yayınlama
-- Profesyonel bir ortamda makul sayılmayabilecek diğer davranışlar
+- Cinselleştirilmiş dil veya imgelerin ve cinsel ilgi veya her türlü cinsel avantajın kullanımı - Trolleme, hakaret veya aşağılayıcı yorumlar ve kişisel veya politik saldırılar - Açıktan veya gizli taciz - Açık izinleri olmadan fiziksel adresleri veya e-posta gibi başkalarının özel bilgilerini yayınlama - Profesyonel bir ortamda makul sayılmayabilecek diğer davranışlar
 
 ## Uygulama Sorumlulukları
 
