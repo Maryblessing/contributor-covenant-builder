@@ -15,8 +15,6 @@ const initializeBuilder = async (languageCode, version) => {
     const placeholder = reportingField.dataset.placeholder
     const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`^.*${escaped}.*$`, 'm')
-    const match = content.match(regex)
-    reportingField.value = match
     reportingField.addEventListener("focus", (event) => {
       updatePreview('reporting')
     });
@@ -34,7 +32,6 @@ const initializeBuilder = async (languageCode, version) => {
     const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`^.*${escaped}.*$`, 'm')
     const match = content.match(regex)
-    enforcementField.value = match
     enforcementField.addEventListener("focus", (event) => {
       updatePreview('enforcement')
     });
@@ -64,11 +61,16 @@ const updatePreview = (elemId) => {
     const placeholder = field.dataset.placeholder
     const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+
     const match = defaultText.match(regex)
-    const replacement = field.value
-    const matchJSON = { match: match[0], replacement: replacement }
-    matches.push(matchJSON)
-    if (field.id == elemId) { scrollToText = replacement }
+    if (match) {
+      const replacement = field.value
+      const matchJSON = { match: match[0], replacement: replacement }
+      matches.push(matchJSON)
+      if (field.id == elemId) { scrollToText = replacement }
+    } else {
+      field.value = "This feature is not supported by this version of Contributor Covenant."
+    }
   });
 
   let buffer = defaultText
