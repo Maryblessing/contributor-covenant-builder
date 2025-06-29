@@ -10,12 +10,22 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
   template.innerHTML = content
   preview.innerHTML = content
 
-  updatePreview('')
+  const languageCodeElems = Array.from(document.getElementsByClassName('language'))
+  languageCodeElems.forEach((elem) => {
+    if (elem.id == languageCode) {
+      elem.classList.add("highlight")
+    } else {
+      elem.classList.remove("highlight")
+    }
+  });
 
   const reportingField = document.getElementById('reporting')
   if (reportingField) {
+    const escaped = reportingPlaceholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+    const match = content.match(regex)
+    reportingField.value = match
     reportingField.dataset.placeholder = reportingPlaceholder
-    reportingField.value = reportingPlaceholder
     reportingField.addEventListener("focus", (event) => {
       updatePreview('reporting')
     });
@@ -29,8 +39,11 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
 
   const enforcementField = document.getElementById('enforcement')
   if (enforcementField) {
+    const escaped = enforcementPlaceholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+    const match = content.match(regex)
+    enforcementField.value = match
     enforcementField.dataset.placeholder = enforcementPlaceholder
-    enforcementField.value = enforcementPlaceholder
     enforcementField.addEventListener("focus", (event) => {
       updatePreview('enforcement')
     });
@@ -137,6 +150,12 @@ const revealStep = (elemId) => {
   });
   elem.classList.remove('hidden')
   clearHighlights()
+}
+
+const revealPreview = () => {
+  preview = document.getElementById('preview')
+  if (!preview) { return }
+  preview.classList.remove('hidden')
 }
 
 const copyPreviewToClipboard = () => {
