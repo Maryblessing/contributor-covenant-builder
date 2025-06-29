@@ -1,6 +1,6 @@
-const initializeBuilder = async (languageCode, version) => {
+const initializeBuilder = async (languageCode, version, reportingPlaceholder, enforcementPlaceholder) => {
   const versionPath = version.replace(".", "/")
-  const sourceUrl =  window.location.href.replace("adopt/",`${languageCode}/version/${versionPath}/code_of_conduct/code_of_conduct.md`)
+  const sourceUrl =  window.location.href.replace("adopt/",`${languageCode.replace("en","")}/version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = await readTemplate(sourceUrl)
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
@@ -12,9 +12,7 @@ const initializeBuilder = async (languageCode, version) => {
 
   const reportingField = document.getElementById('reporting')
   if (reportingField) {
-    const placeholder = reportingField.dataset.placeholder
-    const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`^.*${escaped}.*$`, 'm')
+    reportingField.dataset.placeholder = reportingPlaceholder
     reportingField.addEventListener("focus", (event) => {
       updatePreview('reporting')
     });
@@ -28,10 +26,7 @@ const initializeBuilder = async (languageCode, version) => {
 
   const enforcementField = document.getElementById('enforcement')
   if (enforcementField) {
-    const placeholder = enforcementField.dataset.placeholder
-    const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`^.*${escaped}.*$`, 'm')
-    const match = content.match(regex)
+    enforcementField.dataset.placeholder = enforcementPlaceholder
     enforcementField.addEventListener("focus", (event) => {
       updatePreview('enforcement')
     });
@@ -43,6 +38,7 @@ const initializeBuilder = async (languageCode, version) => {
     });
   }
 
+  updatePreview('')
 }
 
 const updatePreview = (elemId) => {
@@ -69,7 +65,7 @@ const updatePreview = (elemId) => {
       matches.push(matchJSON)
       if (field.id == elemId) { scrollToText = replacement }
     } else {
-      field.value = "This feature is not supported by this version of Contributor Covenant."
+      field.value = "This feature is not supported by this version of Contributor Covenant. Please proceed to the next step."
     }
   });
 
@@ -174,10 +170,6 @@ const downloadPreview = () => {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-}
-
-const setLanguage = (name, version) => {
-  initializeBuilder(name, version)
 }
 
 const readTemplate = async (url) => {

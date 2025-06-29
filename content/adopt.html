@@ -19,6 +19,8 @@ polyfills = [
   <h2>Step 1 of 4: Select Your Language</h2>
   <p>Select your language from the list below.</p>
 
+  <input type="hidden" id="version" />
+
   {{< translation_select >}}
 
   <p><a onclick="revealStep('step-02');">Next</a></p>
@@ -45,8 +47,8 @@ polyfills = [
 </article>
 
 <div id="preview"></div>
-<div class="hidden" id="template"></div>
+<div id="template" class="hidden"></div>
 
 <script language="javascript">
-  initializeBuilder('{{< param "language" >}}','{{< param "version" >}}');
+  initializeBuilder('{{< param "language" >}}','{{< param "version" >}}','{{< reporting_placeholder >}}','{{< enforcement_placeholder >}}');
 </script>
