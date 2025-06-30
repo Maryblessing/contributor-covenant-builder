@@ -4,46 +4,61 @@ layout = "banner-grid"
 language = ""
 version = "3.0"
 polyfills = [
+  "https://cdn.jsdelivr.net/npm/marked/marked.min.js",
   "/scripts/builder.js"
 ]
 +++
 
-<h1>Adopt Contributor Covenant</h1>
+<h1><a name="top">Adopt Contributor Covenant</a></h1>
 
-<article class="step" id="step-00">
+<article class="step banner" id="step-00">
   <p>This guide will walk you through the steps you need to follow to adopt Contributor Covenant and adapt it to the needs of your community. (If you prefer, you can download the <a href="/version/3/0/">static version</a>.)</p>
-  <p>Ready? Let's <a onclick="revealStep('step-01'); revealPreview(); ">get started</a>.</p>
+  <p><a class="pill" onclick="revealStep('step-01'); revealPreview(); ">Get Started</a></p>
 </article>
 
 <article class="step hidden" id="step-01">
-  <h2>Step 1 of 4: Select Your Language</h2>
+  <h2><a name="step-01">Step 1 of 4: Select Your Language</a></h2>
   <p>Select your language from the list below, then click "Next".</p>
   {{< translation_select >}}
-  <p><a onclick="revealStep('step-02');">Next</a></p>
+  <p>
+    <a class="pill" href="#top" onclick="revealStep('step-02');">Next</a>
+  </p>
 </article>
 
 <article class="step hidden" id="step-02">
   <h2>Step 2 of 4: Reporting Instructions</h2>
   <p>Please provide instructions on how to report an issue, exactly the way you want them to appear. When you are done, click "Next".</p>
   <textarea class="builder" id="reporting" data-placeholder="{{< reporting_placeholder >}}"></textarea>
-  <p><a onclick="revealStep('step-01');">Back</a> | <a onclick="revealStep('step-03');">Next</a></p>
+  <p>
+    <a class="pill" href="#top" onclick="revealStep('step-01');">Back</a>
+    <a class="pill"  href="#top" onclick="revealStep('step-03');">Next</a>
+  </p>
 </article>
 
 <article class="step hidden" id="step-03">
   <h2>Step 3 of 4: Addressing and Repairing Harm</h2>
   <p>This section describes a "consequence ladder" that can be used as a guideline for enforcement. If your community already has an enforcement process, you can document it here. Otherwise, leave this section as it is. To continue, click "Next".</p>
   <textarea class="builder" id="enforcement" data-placeholder="{{< enforcement_placeholder >}}"></textarea>
-  <p><a onclick="revealStep('step-02');">Back</a> | <a onclick="revealStep('step-04')">Next</a></p>
+  <p>
+    <a class="pill" href="#top" onclick="revealStep('step-02');">Back</a>
+    <a class="pill" href="#top" onclick="revealStep('step-04')">Next</a>
+  </p>
 </article>
 
 <article class="step hidden" id="step-04">
   <h2>Step 4 of 4: Review and Download your Code of Conduct</h2>
-  <p><a onclick="revealStep('step-03');">Back</a></p>
-  <p>That's it! Give everything a careful read. Then click to <a onclick="copyPreviewToClipboard();">copy your completed code of conduct to your clipboard</a>, or <a onclick="downloadPreview();">download it</a> as markdown.</p>
+  <p>That's it! Give your completed code of conduct a careful read, then post it somewhere prominent on your community's site, repo, or other space.
+  <p>
+    <a class="pill" onclick="copyPreviewToClipboard();">Copy</a>
+    <a class="pill" onclick="downloadPreview();">Download</a>
+    <a class="pill" href="#top" onclick="revealStep('step-03');">Back</a>
+  </p>
+
 </article>
 
 <div id="preview" class="hidden"></div>
 <div id="template" class="hidden"></div>
+<div id="modal" class="hidden"></div>
 
 <script language="javascript">
   initializeBuilder('{{< param "language" >}}','{{< param "version" >}}','{{< reporting_placeholder >}}','{{< enforcement_placeholder >}}');

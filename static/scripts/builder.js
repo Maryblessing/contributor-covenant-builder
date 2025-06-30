@@ -8,7 +8,7 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
 
   // Immutable cache
   template.innerHTML = content
-  preview.innerHTML = content
+  preview.innerHTML = marked.parse(content)
 
   const languageCodeElems = Array.from(document.getElementsByClassName('language'))
   languageCodeElems.forEach((elem) => {
@@ -75,7 +75,7 @@ const updatePreview = (elemId) => {
     const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
 
     const match = defaultText.match(regex)
-    if (match) {
+    if ((match) && (match != "")) {
       const replacement = field.value
       const matchJSON = { match: match[0], replacement: replacement }
       matches.push(matchJSON)
@@ -87,8 +87,8 @@ const updatePreview = (elemId) => {
 
   let buffer = defaultText
   matches.forEach((match) => { buffer = buffer.replace(match.match, match.replacement) });
-  preview.innerHTML = buffer.replace('\n\n\n', '\n\n')
-
+  const sanitized = buffer.replace('\n\n\n', '\n\n')
+  preview.innerHTML = marked.parse(sanitized)
   scrollPreview(scrollToText)
 
   return preview
@@ -98,7 +98,7 @@ const clearHighlights = () => {
   const preview = document.getElementById('preview')
   const content = preview.innerHTML
   const clean = content.replace(/<\/?span[^>]*>/gi, '');
-  preview.innerHTML = clean
+  preview.innerHTML = marked.parse(clean)
 }
 
 const scrollPreview = (text) => {
@@ -133,6 +133,7 @@ const scrollPreview = (text) => {
       top: offsetTop,
       behavior: 'smooth'
     });
+    if (text.length == 0) { return }
     const span = document.createElement('span')
     span.classList.add('highlight')
     range.surroundContents(span)
@@ -166,6 +167,16 @@ const copyPreviewToClipboard = () => {
   const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
   navigator.clipboard.writeText(cleanText).then(
     function () {
+      const modal = document.getElementById('modal')
+      if (modal) {
+        modal.textContent = 'Copied!';
+        modal.classList.remove('hidden')
+        modal.classList.add('appear')
+        setTimeout(() => {
+          modal.textContent = ''
+          modal.classList.add('hidden');
+        }, 1500);
+      }
       console.log('Copied to clipboard.')
     },
     function (err) {
