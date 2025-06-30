@@ -334,6 +334,11 @@ kbd {
   display: none;
 }
 
+.appear {
+  animation: appear .5s;
+  animation-fill-mode: both;
+}
+
 #modal {
   position: absolute;
   top: 60%;

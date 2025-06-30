@@ -170,7 +170,8 @@ const copyPreviewToClipboard = () => {
       const modal = document.getElementById('modal')
       if (modal) {
         modal.textContent = 'Copied!';
-        modal.classList.remove("hidden")
+        modal.classList.remove('hidden')
+        modal.classList.add('appear')
         setTimeout(() => {
           modal.textContent = ''
           modal.classList.add('hidden');
