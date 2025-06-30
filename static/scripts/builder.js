@@ -12,7 +12,7 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
 
   const languageCodeElems = Array.from(document.getElementsByClassName('language'))
   languageCodeElems.forEach((elem) => {
-    if (elem.id == languageCode) {
+    if ((languageCode) && (elem.id == languageCode)) {
       elem.classList.add("highlight")
     } else {
       elem.classList.remove("highlight")
