@@ -4,10 +4,12 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
   const content = await readTemplate(sourceUrl)
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
-  if (!template || !preview) { return }
+  const buffer = document.getElementById('buffer')
+  if (!template || !preview || !buffer) { return }
 
   // Immutable cache
   template.innerHTML = content
+  buffer.innerHTML = content
   preview.innerHTML = marked.parse(content)
 
   const languageCodeElems = Array.from(document.getElementsByClassName('language'))
@@ -60,8 +62,9 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
 const updatePreview = (elemId) => {
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
+  const buffer = document.getElementById('buffer')
   const field = document.getElementById(elemId)
-  if (!template || !preview) { return }
+  if (!template || !preview || !buffer) { return }
 
   const defaultText = template.innerHTML
   const matches = []
@@ -85,10 +88,11 @@ const updatePreview = (elemId) => {
     }
   });
 
-  let buffer = defaultText
-  matches.forEach((match) => { buffer = buffer.replace(match.match, match.replacement) });
-  const sanitized = buffer.replace('\n\n\n', '\n\n')
+  let scratch = defaultText
+  matches.forEach((match) => { scratch = scratch.replace(match.match, match.replacement) });
+  const sanitized = scratch.replace('\n\n\n', '\n\n')
   preview.innerHTML = marked.parse(sanitized)
+  buffer.innerHTML = sanitized
   scrollPreview(scrollToText)
 
   return preview
@@ -159,11 +163,11 @@ const revealPreview = () => {
   preview.classList.remove('hidden')
 }
 
-const copyPreviewToClipboard = () => {
-  const preview = document.getElementById('preview')
-  if (!preview) { return }
+const copyBufferToClipboard = () => {
+  const buffer = document.getElementById('buffer')
+  if (!buffer) { return }
 
-  const completedText = preview.innerHTML
+  const completedText = buffer.innerHTML
   const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
   navigator.clipboard.writeText(cleanText).then(
     function () {
@@ -177,7 +181,6 @@ const copyPreviewToClipboard = () => {
           modal.classList.add('hidden');
         }, 1500);
       }
-      console.log('Copied to clipboard.')
     },
     function (err) {
       console.error('Could not copy text: ', err)
@@ -185,11 +188,11 @@ const copyPreviewToClipboard = () => {
   )
 }
 
-const downloadPreview = () => {
-  const preview = document.getElementById('preview')
-  if (!preview) { return }
+const downloadBuffer = () => {
+  const buffer = document.getElementById('buffer')
+  if (!buffer) { return }
 
-  const completedText = preview.innerHTML
+  const completedText = buffer.innerHTML
   const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
   const blob = new Blob([cleanText], { type: 'text/plain' });
   const url = URL.createObjectURL(blob);
