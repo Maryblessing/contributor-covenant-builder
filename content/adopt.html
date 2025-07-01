@@ -12,13 +12,19 @@ polyfills = [
 <h1><a name="top">Adopt Contributor Covenant</a></h1>
 
 <article class="step banner" id="step-00">
-  <p>This guide will walk you through the steps you need to follow to adopt Contributor Covenant and adapt it to the needs of your community. (If you prefer, you can download the <a href="/version/3/0/">static version</a>.)</p>
-  <p><a class="pill" onclick="revealStep('step-01'); revealPreview(); ">Get Started</a></p>
+  <p>
+    This guide will walk you through the steps for adopting Contributor Covenant and adapting it for your community. (If you prefer, you can download the <a href="/version/3/0/">static version</a> and work offline.)
+  </p>
+  <p>
+    <a class="pill" onclick="revealStep('step-01'); revealPreview(); ">Get Started</a>
+  </p>
 </article>
 
 <article class="step hidden" id="step-01">
   <h2><a name="step-01">Step 1 of 4: Select Your Language</a></h2>
-  <p>Select your language from the list below, then click "Next".</p>
+  <p>
+    Select your language from the list below, then click "Next". (A preview pane at the bottom of the page shows your updates as you go.)
+  </p>
   {{< translation_select >}}
   <p>
     <a class="pill" href="#top" onclick="revealStep('step-02');">Next</a>
@@ -27,7 +33,9 @@ polyfills = [
 
 <article class="step hidden" id="step-02">
   <h2>Step 2 of 4: Reporting Instructions</h2>
-  <p>Please provide instructions on how to report an issue, exactly the way you want them to appear. When you are done, click "Next".</p>
+  <p>
+    Please provide instructions on how to report an issue, exactly the way you want them to appear. When you are done, click "Next".
+  </p>
   <textarea class="builder" id="reporting" data-placeholder="{{< reporting_placeholder >}}"></textarea>
   <p>
     <a class="pill" href="#top" onclick="revealStep('step-01');">Back</a>
@@ -37,19 +45,24 @@ polyfills = [
 
 <article class="step hidden" id="step-03">
   <h2>Step 3 of 4: Addressing and Repairing Harm</h2>
-  <p>This section describes a "consequence ladder" that can be used as a guideline for enforcement. If your community already has an enforcement process, you can document it here. Otherwise, leave this section as it is. To continue, click "Next".</p>
+  <p>
+    This section describes a "consequence ladder" that can be used as a guideline for enforcement. If your community already has an enforcement process, you can document it here. Otherwise, leave this section as it is. To continue, click "Next".
+  </p>
   <textarea class="builder" id="enforcement" data-placeholder="{{< enforcement_placeholder >}}"></textarea>
   <p>
     <a class="pill" href="#top" onclick="revealStep('step-02');">Back</a>
-    <a class="pill" href="#top" onclick="revealStep('step-04')">Next</a>
+    <a class="pill" href="#top" onclick="revealStep('step-04'); scrollPreviewToTop();">Next</a>
   </p>
 </article>
 
 <article class="step hidden" id="step-04">
   <h2>Step 4 of 4: Review and Download your Code of Conduct</h2>
-  <p>That's it! Give your completed code of conduct a careful read, then post it somewhere prominent on your community's site, repo, or other space.</p>
-
-  <p>Want to show your support for Contributor Covenant? Please consider <a href="https://opencollective.com/ethical-source" target="_new">making a donation</a>.</p>
+  <p>
+    That's it! Give your completed code of conduct a careful read, then post it somewhere prominent on your community's website, repo, or other space.
+  </p>
+  <p>
+    Want to show your support for Contributor Covenant? Please consider <a href="https://opencollective.com/ethical-source" target="_new">making a donation</a>.
+  </p>
   <p>
     <a class="pill" onclick="copyBufferToClipboard();">Copy</a>
     <a class="pill" onclick="downloadBuffer();">Download</a>

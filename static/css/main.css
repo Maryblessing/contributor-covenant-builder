@@ -183,7 +183,7 @@ footer ul li a {
 ul,
 ol {
   list-style-position: inside;
-  margin: 1.5rem 0 1.5rem 1.5rem;
+  margin: 0 0 0 1.5rem;
 }
 
 [dir="rtl"] ul,
@@ -355,7 +355,7 @@ kbd {
   color: var(--color-white);
   padding: 1rem;
   font-size: .75rem;
-  margin: 0 1rem;
+  margin: 0 1rem 0 0;
 }
 
 .pill:hover {
@@ -579,6 +579,7 @@ textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style-type: none;
   justify-content: space-evenly;
   width: 90%;
   margin: 0 auto;
@@ -742,25 +743,38 @@ area {
   margin: 0 auto;
   padding: 1rem;
   border: 3px solid var(--color-grey-darker);
+  border-radius: .5rem;
   white-space: pre;
   text-align: left;
   overflow-x: auto;
   text-wrap: wrap;
+  font-size: 1rem;
 }
 
 #preview p {
   text-align: left;
   width: 100%;
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
 #preview h1 {
   animation: none;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
 }
 
 #preview h2 {
-  margin: 0;
+  margin: 0 0 0 0;
   width: auto;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+
+#preview h3 {
+  margin: 0 0 0 0;
+  width: auto;
+  font-size: 1.15rem;
+  line-height: 1.15rem;
 }
 
 @media (min-width: 300px) {

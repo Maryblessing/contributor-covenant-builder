@@ -161,6 +161,12 @@ const scrollPreview = (text) => {
 
 }
 
+const scrollPreviewToTop = () => {
+  const preview = document.getElementById('preview')
+  if (!preview) { return }
+  preview.scrollTo({ top: 0, behavior: 'smooth'});
+}
+
 const revealStep = (elemId) => {
   const steps = document.querySelectorAll('.step')
   const elem = document.getElementById(elemId)
