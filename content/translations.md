@@ -11,4 +11,3 @@ Contributor Covenant has been translated into over 30 languages from around the 
 {{< world-map >}}
 
 {{< translations >}}
-
