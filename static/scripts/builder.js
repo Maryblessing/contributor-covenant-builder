@@ -2,6 +2,7 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
   const versionPath = version.replace(".", "/")
   const sourceUrl =  window.location.href.replace("adopt/",`${languageCode.replace("en","")}/version/${versionPath}/code_of_conduct/code_of_conduct.md`)
   const content = await readTemplate(sourceUrl)
+
   const template = document.getElementById('template')
   const preview = document.getElementById('preview')
   const buffer = document.getElementById('buffer')
@@ -21,42 +22,57 @@ const initializeBuilder = async (languageCode, version, reportingPlaceholder, en
     }
   });
 
+  initializeReportingField(reportingPlaceholder)
+  initializeEnforcementField(enforcementPlaceholder)
+
+}
+
+const initializeReportingField = (placeholder) => {
   const reportingField = document.getElementById('reporting')
-  if (reportingField) {
-    const escaped = reportingPlaceholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
-    const match = content.match(regex)
-    reportingField.value = match
-    reportingField.dataset.placeholder = reportingPlaceholder
-    reportingField.addEventListener("focus", (event) => {
-      updatePreview('reporting')
-    });
-    reportingField.addEventListener("blur", (event) => {
-      updatePreview('reporting')
-    });
-    reportingField.addEventListener("keyup", (event) => {
-      updatePreview('reporting')
-    });
-  }
+  const template = document.getElementById('template')
+  if (!reportingField || !template) { return }
 
+  const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
+  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+
+  const content = template.innerHTML
+  const match = content.match(regex)
+  reportingField.value = match
+  reportingField.dataset.placeholder = placeholder
+
+  reportingField.addEventListener("focus", (event) => {
+    updatePreview('reporting')
+  });
+  reportingField.addEventListener("blur", (event) => {
+    updatePreview('reporting')
+  });
+  reportingField.addEventListener("keyup", (event) => {
+    updatePreview('reporting')
+  });
+}
+
+const initializeEnforcementField = (placeholder) => {
   const enforcementField = document.getElementById('enforcement')
-  if (enforcementField) {
-    const escaped = enforcementPlaceholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
-    const match = content.match(regex)
-    enforcementField.value = match
-    enforcementField.dataset.placeholder = enforcementPlaceholder
-    enforcementField.addEventListener("focus", (event) => {
-      updatePreview('enforcement')
-    });
-    enforcementField.addEventListener("blur", (event) => {
-      updatePreview('enforcement')
-    });
-    enforcementField.addEventListener("keyup", (event) => {
-      updatePreview('enforcement')
-    });
-  }
+  const template = document.getElementById('template')
+  if (!enforcementField || !template) { return }
 
+  const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
+  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+
+  const content = template.innerHTML
+  const match = content.match(regex)
+  enforcementField.value = match
+  enforcementField.dataset.placeholder = placeholder
+
+  enforcementField.addEventListener("focus", (event) => {
+    updatePreview('enforcement')
+  });
+  enforcementField.addEventListener("blur", (event) => {
+    updatePreview('enforcement')
+  });
+  enforcementField.addEventListener("keyup", (event) => {
+    updatePreview('enforcement')
+  });
 }
 
 const updatePreview = (elemId) => {
@@ -64,7 +80,7 @@ const updatePreview = (elemId) => {
   const preview = document.getElementById('preview')
   const buffer = document.getElementById('buffer')
   const field = document.getElementById(elemId)
-  if (!template || !preview || !buffer) { return }
+  if (!template || !preview || !buffer || !field) { return }
 
   const defaultText = template.innerHTML
   const matches = []
@@ -170,22 +186,21 @@ const copyBufferToClipboard = () => {
   const completedText = buffer.innerHTML
   const cleanText = completedText.replace(/<\/?span[^>]*>/gi, '');
   navigator.clipboard.writeText(cleanText).then(
-    function () {
-      const modal = document.getElementById('modal')
-      if (modal) {
-        modal.textContent = 'Copied!';
-        modal.classList.remove('hidden')
-        modal.classList.add('appear')
-        setTimeout(() => {
-          modal.textContent = ''
-          modal.classList.add('hidden');
-        }, 1500);
-      }
-    },
-    function (err) {
-      console.error('Could not copy text: ', err)
-    }
+    function () { showModal("Copied!")},
+    function (err) { console.error('Could not copy text: ', err) }
   )
+}
+
+const showModal = (message) => {
+  const modal = document.getElementById('modal')
+  if (!modal) { return }
+  modal.textContent = 'Copied!';
+  modal.classList.remove('hidden')
+  modal.classList.add('appear')
+  setTimeout( () => {
+    modal.textContent = ''
+    modal.classList.add('hidden')
+  }, 1500)
 }
 
 const downloadBuffer = () => {
