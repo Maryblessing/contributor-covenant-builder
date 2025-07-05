@@ -85,4 +85,8 @@ reportingPlaceholder = "[연락 방법 입력]"
 
 이 행동 강령에 관련한 일반적인 질문에 대한 대답은 [https://www.contributor-covenant.org/faq][FAQ]를 참고할 수 있습니다. 번역본은 [https://www.contributor-covenant.org/translations][translations]에서 볼 수 있습니다.
 
-[homepage]: https://www.contributor-covenant.org [v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html [Mozilla CoC]: https://github.com/mozilla/diversity [FAQ]: https://www.contributor-covenant.org/faq [translations]: https://www.contributor-covenant.org/translations
+[homepage]: https://www.contributor-covenant.org
+[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[Mozilla CoC]: https://github.com/mozilla/diversity
+[FAQ]: https://www.contributor-covenant.org/faq
+[translations]: https://www.contributor-covenant.org/translations
