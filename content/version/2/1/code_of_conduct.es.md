@@ -1,6 +1,6 @@
 +++
-version = "2.0"
-aliases = ["/version/2/0/es"]
+version = "2.1"
+aliases = ["/version/2/1/es"]
 reportingPlaceholder = "[INSERTAR MÉTODO DE CONTACTO]"
 +++
 
@@ -8,13 +8,13 @@ reportingPlaceholder = "[INSERTAR MÉTODO DE CONTACTO]"
 
 ## Nuestro compromiso
 
-Nosotros, como miembros, contribuyentes y administradores nos comprometemos a hacer de la participación en nuestra comunidad una experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal, minusvalía visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, nivel socio-económico, nacionalidad, apariencia personal, raza, religión, o identidad u orientación sexual.
+Nosotros, como miembros, contribuyentes y administradores nos comprometemos a hacer de la participación en nuestra comunidad sea una experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal, discapacidad visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, nivel socio-económico, nacionalidad, apariencia personal, raza, casta, color, religión, o identidad u orientación sexual.
 
 Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y sana.
 
 ## Nuestros estándares
 
-Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nuestra comunidad:
+Ejemplos de comportamientos que contribuyen a crear un ambiente positivo para nuestra comunidad:
 
 * Demostrar empatía y amabilidad ante otras personas
 * Respeto a diferentes opiniones, puntos de vista y experiencias
@@ -24,11 +24,14 @@ Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nue
 
 Ejemplos de comportamiento inaceptable:
 
-* El uso de lenguaje o imágenes sexualizadas, y aproximaciones o atenciones sexuales de cualquier tipo
+* El uso de lenguaje o imágenes sexualizadas, y aproximaciones o
+  atenciones sexuales de cualquier tipo
 * Comentarios despectivos (_trolling_), insultantes o derogatorios, y ataques personales o políticos
 * El acoso en público o privado
-* Publicar información privada de otras personas, tales como direcciones físicas o de correo electrónico, sin su permiso explícito
-* Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un entorno profesional
+* Publicar información privada de otras personas, tales como direcciones físicas o de correo
+  electrónico, sin su permiso explícito
+* Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un
+  entorno profesional
 
 ## Aplicación de las responsabilidades
 
@@ -76,10 +79,12 @@ Los administradores de la comunidad seguirán estas Guías de Impacto en la Comu
 
 ## Atribución
 
-Este Código de Conducta es una adaptación del [Contributor Covenant][homepage], versión 2.0, disponible en https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html
+Este Código de Conducta es una adaptación del [Contributor Covenant][homepage], versión 2.1,
+disponible en https://www.contributor-covenant.org/es/version/2/1/code_of_conduct.html
 
 Las Guías de Impacto en la Comunidad están inspiradas en la [escalera de aplicación del código de conducta de Mozilla](https://github.com/mozilla/diversity).
 
 [homepage]: https://www.contributor-covenant.org
 
-Para respuestas a las preguntas frecuentes de este código de conducta, consulta las FAQ en https://www.contributor-covenant.org/faq. Hay traducciones disponibles en https://www.contributor-covenant.org/translations
+Para respuestas a las preguntas frecuentes de este código de conducta, consulta las FAQ en
+https://www.contributor-covenant.org/faq. Hay traducciones disponibles en https://www.contributor-covenant.org/translations

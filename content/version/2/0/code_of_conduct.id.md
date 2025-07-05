@@ -16,11 +16,19 @@ Kami berjanji untuk bertingkah dan berinteraksi dalam langkah komunitas yang ter
 
 Contoh perilaku yang berkontribusi memberi dampak yang positif dalam komunitas kami meliputi:
 
-* Menunjukkan rasa empati dan kebaikan kepada orang lain * Menghormati opini, pandangan, dan pengalaman yang berbeda * Memberikan dan menerima secara sopan umpan balik yang konstruktif * Menerima tanggung jawab dan meminta maaf kepada yang terdampak dari kesalahan kita, dan belajar dari pengalaman * Fokus terhadap apa yang terbaik tidak hanya untuk diri pribadi, tetapi untuk keseluruhan komunitas
+* Menunjukkan rasa empati dan kebaikan kepada orang lain
+* Menghormati opini, pandangan, dan pengalaman yang berbeda
+* Memberikan dan menerima secara sopan umpan balik yang konstruktif
+* Menerima tanggung jawab dan meminta maaf kepada yang terdampak dari kesalahan kita, dan belajar dari pengalaman
+* Fokus terhadap apa yang terbaik tidak hanya untuk diri pribadi, tetapi untuk keseluruhan komunitas
 
 Contoh perilaku yang tidak dapat diterima meliputi:
 
-* Penggunaan bahasa atau citra seksual, dan sorotan bernada seksual atau rayuan dalam bentuk apapun * Mengejek, mencaci maki atau komentar yang menghina / merendahkan, dan serangan terhadap individual atau politik * Pelecehan secara umum atau pribadi * Memuat informasi pribadi orang lain, seperti alamat fisik atau surel, tanpa persejutuan orang tersebut * Perilaku lainnya yang secara wajar dapat dianggap tidak sesuai dalam lingkungan profesional
+* Penggunaan bahasa atau citra seksual, dan sorotan bernada seksual atau rayuan dalam bentuk apapun
+* Mengejek, mencaci maki atau komentar yang menghina / merendahkan, dan serangan terhadap individual atau politik
+* Pelecehan secara umum atau pribadi
+* Memuat informasi pribadi orang lain, seperti alamat fisik atau surel, tanpa persejutuan orang tersebut
+* Perilaku lainnya yang secara wajar dapat dianggap tidak sesuai dalam lingkungan profesional
 
 ## Tanggung Jawab Lingkungan
 
