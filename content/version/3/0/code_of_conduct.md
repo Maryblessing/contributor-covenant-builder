@@ -2,8 +2,8 @@
 title = "Contributor Covenant 3"
 version = "3.0"
 aliases = ["/version/3/0"]
-reportingPlaceholder = "[Add the means of reporting here.]"
-enforcementPlaceholder = "[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]"
+reportingPlaceholder = "_[NOTE: Add the means of reporting here.]_"
+enforcementPlaceholder = "_[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies. Otherwise, you can safely delete this notice and leave the section below as it is.]_"
 +++
 
 # Contributor Covenant 3.0
@@ -46,12 +46,12 @@ We agree to restrict the following behaviors in our community. Instances, threat
 ## Reporting an Issue
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. [Add the means of reporting here.]. Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
+When an incident does occur, it is important to report it promptly. Community Moderators are responsible for enforcing this Code of Conduct. _[NOTE: Add the means of reporting here.]_ Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner.
 
 Community Moderators will investigate all reports of code of conduct violations. While investigating, they may review messages, logs, and recordings, or interview witnesses and other participants. We keep investigation and enforcement procedures as transparent as possible while prioritizing safety and confidentiality.
 
 ## Addressing and Repairing Harm
-[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]
+_[NOTE: The remedies and repair outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies. Otherwise, you can safely delete this notice and leave the section below as it is.]_
 
 If an investigation by the Community Moderators finds that this Code of Conduct has been violated, the following enforcement ladder may be used to determine how best to repair harm, based on the incident's impact on the individuals involved and the community as a whole. Depending on the severity of a violation, lower rungs on the ladder may be skipped.
 

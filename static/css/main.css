@@ -195,7 +195,8 @@ li {
   margin-bottom: .375rem;
 }
 
-strong {
+strong, em {
+  font-style: normal;
   font-weight: 600 !important;
 }
 
@@ -741,7 +742,7 @@ area {
   display: none;
 }
 
-#preview {
+.preview {
   height: 30rem;
   background: var(--color-grey-subtle);
   width: 75%;
@@ -749,37 +750,55 @@ area {
   padding: 1rem;
   border: 3px solid var(--color-grey-darker);
   border-radius: .5rem;
-  white-space: pre;
+  /* white-space: pre; */
   text-align: left;
   overflow-x: auto;
   text-wrap: wrap;
   font-size: 1rem;
 }
 
-#preview p {
+.version {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem;
   text-align: left;
-  width: 100%;
-  margin: 0 0 0 0;
+  text-wrap: wrap;
+  font-size: 1rem;
 }
 
-#preview h1 {
+.preview p, .version p {
+  text-align: left;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.preview h1, .versiom h1 {
   animation: none;
   font-size: 1.75rem;
   line-height: 1.75rem;
+  margin: 1.75rem 0;
 }
 
-#preview h2 {
-  margin: 0 0 0 0;
+.preview h2, .version h2 {
+  margin: 1.25rem 0;
+  width: auto;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.preview h3, .version h3 {
+  margin: 1.25rem 0;
   width: auto;
   font-size: 1.25rem;
   line-height: 1.25rem;
 }
 
-#preview h3 {
+.preview ul, .version ul {
   margin: 0 0 0 0;
-  width: auto;
-  font-size: 1.15rem;
-  line-height: 1.15rem;
+}
+
+.preview li, .version li {
+  margin: 0;
 }
 
 @media (min-width: 300px) {
