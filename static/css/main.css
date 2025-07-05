@@ -64,16 +64,16 @@ header {
 }
 
 header figure {
-  width: 60%;
+  /* width: 60%; */
   float: left;
   text-align: center;
   margin-top: -1.5rem;
 }
 
 header figcaption {
-  margin-top: 1rem;
+  margin-top: 0rem;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   font-size: 1.75rem;
   line-height: 2rem;
 }
@@ -379,6 +379,7 @@ nav .pill {
   padding: 0 0.5rem;
   font-size: 1.0rem;
   text-align: center;
+  margin: 0 0 1rem 0;
 }
 
 nav .pill a:hover,
@@ -386,6 +387,10 @@ nav .pill a:focus {
   color: var(--color-white);
   border-bottom: none;
   text-decoration: none;
+}
+
+nav li {
+  text-align: center;
 }
 
 
@@ -900,6 +905,10 @@ area {
     text-decoration: none;
   }
 
+  nav .pill {
+    margin: 0 1.5rem 0 0;
+  }
+
   footer {
     padding: 0 15% 3rem 15%;
     border-bottom: 14rem solid var(--color-primary);
@@ -976,7 +985,7 @@ area {
   }
 
   .floating-card-container li {
-    width: 45%;
+    width: 25%;
   }
 
   #world-map-static {
