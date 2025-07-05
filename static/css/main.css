@@ -379,7 +379,7 @@ nav .pill {
   padding: 0 0.5rem;
   font-size: 1.0rem;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 0 0 1rem 0;
 }
 
 nav .pill a:hover,
@@ -903,6 +903,10 @@ area {
 
   nav ul li a {
     text-decoration: none;
+  }
+
+  nav .pill {
+    margin: 0 1.5rem 0 0;
   }
 
   footer {
