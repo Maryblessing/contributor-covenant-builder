@@ -8,13 +8,9 @@ reportingPlaceholder = "[SARTU HARREMANETARAKO METODOA]"
 
 ## Gure konpromisoa
 
-Gu, kide, laguntzaile eta administratzaile moduan, edonoren parte hartzea jazarpenik gabeko experientzia izan dadin
-engaiatuko gara, edozein delarik ere bere adina, gorputz neurria, bistako zein ezkutuko elbarritasuna, etnizitatea, xehetasun
-sexuala, identitate eta genero adierazpena, experientzia maila, hezkuntza, maila sozio-ekonomikoa, nazionalitatea, itxura
-pertsonala, arraza, kasta, kolorea, erligioa, edo identitate eta orientazio sexuala.
+Gu, kide, laguntzaile eta administratzaile moduan, edonoren parte hartzea jazarpenik gabeko experientzia izan dadin engaiatuko gara, edozein delarik ere bere adina, gorputz neurria, bistako zein ezkutuko elbarritasuna, etnizitatea, xehetasun sexuala, identitate eta genero adierazpena, experientzia maila, hezkuntza, maila sozio-ekonomikoa, nazionalitatea, itxura pertsonala, arraza, kasta, kolorea, erligioa, edo identitate eta orientazio sexuala.
 
-Komunitate irekia, abegikorra, anitza, inklusiboa eta osasuntsua izatea ahalbidetuko duen moduan elkarlanean jarduteko
-konpromisoa hartzen dugu.
+Komunitate irekia, abegikorra, anitza, inklusiboa eta osasuntsua izatea ahalbidetuko duen moduan elkarlanean jarduteko konpromisoa hartzen dugu.
 
 ## Gure irizpideak (_estandarrak_)
 
@@ -47,11 +43,9 @@ Jokabide Kode hau eremu komunitario guztietan aplikatzen da, baita gizabanako ba
 
 ## Ezarpena
 
-Gehiegikeriazko portaera, jazarpenezkoa edo onartezina duten instantziak komunitateko arduradunei jakinarazi ahal
-izango zaizkie hona idatziz: [SARTU HARREMANETARAKO METODOA]. Kexa guztiak azkar eta zuzen ikertu eta aztertuak izango dira.
+Gehiegikeriazko portaera, jazarpenezkoa edo onartezina duten instantziak komunitateko arduradunei jakinarazi ahal izango zaizkie hona idatziz: [SARTU HARREMANETARAKO METODOA]. Kexa guztiak azkar eta zuzen ikertu eta aztertuak izango dira.
 
-Komunitateko arduradun guztiak behartuak daude edozein gertakari salatzen duenaren pribatutasuna eta segurtasuna
-errespetatzera.
+Komunitateko arduradun guztiak behartuak daude edozein gertakari salatzen duenaren pribatutasuna eta segurtasuna errespetatzera.
 
 ## Ezarpenerako gida
 
@@ -83,9 +77,7 @@ Komunitateko administratzaileek Komunitate Eragineko Jarraibide hauek jarraituko
 
 ## Aitortza
 
-
-Jokabide Kode hau [Contributor Covenant][homepage], 2.1 bertsioaren egokitzapen bat da,
-hemen eskuragarri https://www.contributor-covenant.org/eu/version/2/1/code_of_conduct.html
+Jokabide Kode hau [Contributor Covenant][homepage], 2.1 bertsioaren egokitzapen bat da, hemen eskuragarri https://www.contributor-covenant.org/eu/version/2/1/code_of_conduct.html
 
 Komunitate Eragineko Jarraibidea [Mozilla-ren jokabide kodearen aplikazio eskalan](https://github.com/mozilla/diversity) oinarritzen da.
 

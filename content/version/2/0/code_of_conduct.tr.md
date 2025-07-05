@@ -82,5 +82,4 @@ Topluluk Etki Yönergeleri [Mozilla'nın davranış kuralları icra merdiveninde
 
 Bu davranış kuralları hakkında sık sorulan soruların yanıtları için https://www.contributor-covenant.org/faq adresindeki SSS bölümüne bakın. Çevirilere https://www.contributor-covenant.org/translations adresinden ulaşabilirsiniz.
 
-
 [Katılımcı Sözleşmesinden]: https://www.contributor-covenant.org

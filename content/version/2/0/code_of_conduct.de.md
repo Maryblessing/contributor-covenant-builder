@@ -82,5 +82,6 @@ Community Impact Guidelines wurden von [Mozillas Code of Conduct Enforcement Lad
 
 Antworten auf häufig gestellte Fragen zu diesem Verhaltenskodex finden Sie in den häufig gestellten Fragen unter <https://www.contributor-covenant.org/faq> (in Englisch). Andere Übersetzungen sind verfügbar unter <https://www.contributor-covenant.org/translations>.
 
-[homepage]: https://www.contributor-covenant.org [mozilla]: https://github.com/mozilla/inclusion
+[homepage]: https://www.contributor-covenant.org
+[mozilla]: https://github.com/mozilla/inclusion
 
