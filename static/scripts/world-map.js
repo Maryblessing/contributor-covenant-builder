@@ -13,6 +13,7 @@ window.addEventListener('load', function() {
 
   const infoBox = document.getElementById("infobox");
   infoBox.addEventListener("mousemove", placeInfoBox);
+
 });
 
 const toggleLanguageBox = (id) => {
