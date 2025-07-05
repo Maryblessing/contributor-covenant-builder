@@ -1,7 +1,7 @@
 +++
 title = "Contributor Covenant Translations"
 aliases = ["i18n"]
-description = "You can view and download the latest translations of Contributor Covenant here."
+Summary = "Available in 30+ languages, carefully translated by volunteers."
 +++
 
 # Translations
