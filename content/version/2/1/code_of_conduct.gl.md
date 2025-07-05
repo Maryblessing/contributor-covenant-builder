@@ -1,6 +1,6 @@
 +++
 version = "2.1"
-aliases = ["/version/2/1/glg"]
+aliases = ["/version/2/1/gl"]
 reportingPlaceholder = "[PROPORCIONE AQUÍ A INFORMACIÓN DE CONTACTO]"
 +++
 
