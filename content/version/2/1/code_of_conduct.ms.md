@@ -78,11 +78,9 @@ Ketua komuniti akan menurut Garis Panduan Impak Komuniti ini dalam menentukan ak
 ## Atribut
 
 Kod Tingkah Laku ini adalah adaptasi daripada [Contributor Covenant][homepage],
-versi 2.1, tersedia di
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
+versi 2.1, tersedia di [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
 
-Garis Panduan Impak Komuniti diinspirasikan oleh
-[Tahap Penguatkuasaan Kod Tingkah Laku Mozilla][Mozilla CoC].
+Garis Panduan Impak Komuniti diinspirasikan oleh [Tahap Penguatkuasaan Kod Tingkah Laku Mozilla][Mozilla CoC].
 
 Untuk jawapan kepada soalan lazim tentang Kod Tingkah Laku ini, lihat FAQ di [https://www.contributor-covenant.org/faq][FAQ]. Alih bahasa tersedia di [https://www.contributor-covenant.org/translations][translations].
 
