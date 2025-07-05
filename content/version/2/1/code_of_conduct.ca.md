@@ -1,6 +1,6 @@
 +++
-version = "2.0"
-aliases = ["/version/2/0/ca"]
+version = "2.1"
+aliases = ["/version/2/1/ca"]
 reportingPlaceholder = "[INSERIR MÈTODE DE CONTACTE]"
 +++
 
@@ -8,7 +8,7 @@ reportingPlaceholder = "[INSERIR MÈTODE DE CONTACTE]"
 
 ## El nostre compromís
 
-Nosaltres, com a membres, col·laboradors i administradors ens comprometem a fer de la participació en la nostra comunitat una experiència lliure d'assetjament per a tothom, independentment de l'edat, mida corporal, discapacitat visible o invisible, etnicitat, característiques sexuals, identitat i expressió de gènere, nivell d'experiència, educació, nivell socioeconòmic, nacionalitat, aparença personal, raça, religió, o identitat i orientació sexual.
+Nosaltres, com a membres, col·laboradors i administradors ens comprometem a fer de la participació en la nostra comunitat una experiència lliure d'assetjament per a tothom, independentment de l'edat, mida corporal, discapacitat visible o invisible, etnicitat, característiques sexuals, identitat i expressió de gènere, nivell d'experiència, educació, nivell socioeconòmic, nacionalitat, aparença personal, raça, llinatge, color de pell, religió, o identitat i orientació sexual.
 
 Ens comprometem a actuar i interactuar de maneres que contribueixin a una comunitat oberta, acollidora, diversa, inclusiva i sana.
 
@@ -24,7 +24,7 @@ Exemples de comportament que contribueixen a crear un ambient positiu per a la n
 
 Exemples de comportament inapropiat:
 
-* L'ús de llenguatge o imatges sexualitzades, i atencions o aproximacions sexuals de qualsevol tipus
+* L'ús de llenguatge o imatges sexualitzades, i atencions o aproximacions sexuals de qualsevol classe
 * Comentaris provocadors (_trolling_), insultants o despectius, i atacs personals o polítics
 * L'assetjament en públic o en privat
 * Publicar informació privada d'altres persones, com adreces físiques o de correu electrònic, sense el seu permís explícit
@@ -60,23 +60,23 @@ Els administradors de la comunitat seguiran aquestes Pautes d'Impacte en la Comu
 
 **Impacte en la Comunitat**: Un incompliment causat per un únic incident o per una cadena d'accions.
 
-**Conseqüència**: Un avís amb conseqüències per comportament prolongat. No s'interactua amb les persones involucrades, incloent interacció no sol·licitada amb els qui es troben aplicant el Codi de Conducta, per un període especificat de temps. Això inclou evitar les interaccions en espais de la comunitat, així com a través dels canals externs com les xarxes socials. Incomplir aquests termes pot conduir a una expulsió temporal o permanent.
+**Conseqüència**: Un avís amb conseqüències per comportament prolongat. No es permet la interacció amb les persones involucrades, incloses les no sol·licitades amb els qui es troben aplicant el Codi de Conducta, per un període especificat de temps. Això inclou evitar les interaccions en espais de la comunitat, així com a través dels canals externs com les xarxes socials. Incomplir aquests termes pot conduir a una expulsió temporal o permanent.
 
 ### 3. Expulsió temporal
 
-**Impacte en la Comunitat**: Una sèrie d'incompliments dels estàndards de la comunitat, incloent comportament inapropiat continuat.
+**Impacte en la Comunitat**: Una sèrie d'incompliments dels estàndards de la comunitat, inclòs comportament inapropiat continuat.
 
-**Conseqüència**: Una restricció (__ban__) temporal de qualsevol forma d'interacció o comunicació pública amb la comunitat durant un interval de temps especificat. No es permet interactuar de manera pública o privada amb les persones involucrades, incloent interaccions no sol·licitades amb els qui es troben aplicant el Codi de Conducta durant aquest període. Incomplir aquests termes pot conduir a una expulsió permanent.
+**Conseqüència**: Una restricció (__ban__) temporal de qualsevol forma d'interacció o comunicació pública amb la comunitat durant un interval de temps especificat. No es permet interactuar de manera pública o privada amb les persones involucrades, incloses les interaccions no sol·licitades amb els qui es troben aplicant el Codi de Conducta durant aquest període. Incomplir aquests termes pot conduir a una expulsió permanent.
 
 ### 4. Expulsió permanent
 
-**Impacte en la Comunitat**: Demostrar un patró sistemàtic d'incompliments dels estàndards de la comunitat, incloent conductes inapropiades prolongades en el temps, assetjament d'individus, agressions o menyspreu a grups d'individus.
+**Impacte en la Comunitat**: Demostrar un patró sistemàtic d'incompliments dels estàndards de la comunitat, incloses conductes inapropiades prolongades en el temps, assetjament d'individus, agressions o menyspreu a grups d'individus.
 
 **Conseqüència**: Una restricció (__ban__) permanent de qualsevol forma d'interacció pública amb la comunitat del projecte.
 
 ## Atribució
 
-Aquest Codi de Conducta és una adaptació del [Contributor Covenant][homepage], versió 2.0, disponible a https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html
+Aquest Codi de Conducta és una adaptació del [Contributor Covenant][homepage], versió 2.1, disponible a https://www.contributor-covenant.org/ca/version/2/1/code_of_conduct.html
 
 Les Guies d'Impacte en la Comunitat estan inspirades en l'[escala d'aplicació del codi de conducta de Mozilla](https://github.com/mozilla/diversity).
 

@@ -43,6 +43,10 @@ page = ["html", "markdown", "plaintext", "asciidoc"]
 # Add all translated languages here.
 [languages]
 
+[languages.am]
+languageName = "አማርኛ"
+languageCode = "am"
+
 [languages.ar]
 languageName = "العربية"
 languageCode = "ar"
@@ -82,9 +86,17 @@ languageCode = "el"
 languageName = "Español"
 languageCode = "es"
 
+[languages.eu]
+languageName = "Euskara"
+languageCode = "eu"
+
 [languages.fr]
 languageName = "Français"
 languageCode = "fr"
+
+[languages.gl]
+languageName = "Galego"
+languageCode = "gl"
 
 [languages.gu]
 languageName = "ગુજરાતી"
@@ -120,10 +132,6 @@ languageCode = "iw"
 languageName = "日本語"
 languageCode = "ja"
 
-[languages.mr]
-languageName = "मराठी"
-languageCode = "mr"
-
 [languages.kn]
 languageName = "ಕನ್ನಡ"
 languageCode = "kn"
@@ -135,6 +143,14 @@ languageCode = "ko"
 [languages.mk]
 languageName = "Македонски"
 languageCode = "mk"
+
+[languages.mr]
+languageName = "मराठी"
+languageCode = "mr"
+
+[languages.ms]
+languageName = "بهاس ملايو"
+languageCode = "ms"
 
 [languages.nl]
 languageName = "Nederlands"
@@ -168,17 +184,25 @@ languageCode = "sl"
 languageName = "Svenska"
 languageCode = "sv"
 
+[languages.sw]
+languageName = "Kiswahili"
+languageCode = "sw"
+
 [languages.tr]
 languageName = "Türkçe"
 languageCode = "tr"
 
-[languages.zh-tw]
-languageName = "繁體中文"
-languageCode = "zh-tw"
-
 [languages.uk]
 languageName = "Українська"
 languageCode = "uk"
+
+[languages.vi]
+languageName = "tiếng Việt"
+languageCode = "vi"
+
+[languages.zh-tw]
+languageName = "繁體中文"
+languageCode = "zh-tw"
 
 [languages.zh-cn]
 languageName = "简体中文"

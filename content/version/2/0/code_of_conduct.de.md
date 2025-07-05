@@ -16,11 +16,19 @@ Wir verpflichten uns, in einer Weise zu handeln und zu interagieren, die zu eine
 
 Beispiele für Verhaltensweisen, die zu einem positiven Umfeld für unsere Gemeinschaft beitragen, sind:
 
-- Einfühlungsvermögen und Freundlichkeit gegenüber anderen Menschen zeigen - Unterschiedliche Meinungen, Standpunkte und Erfahrungen respektieren - Konstruktives Feedback geben und würdevoll annehmen - Verantwortung übernehmen und uns bei denjenigen entschuldigen, die von unseren Fehlern betroffen sind, und aus den Erfahrungen lernen - Konzentration auf das, was nicht nur für uns als Individuen, sondern für die gesamte Gemeinschaft das Beste ist
+* Einfühlungsvermögen und Freundlichkeit gegenüber anderen Menschen zeigen
+* Unterschiedliche Meinungen, Standpunkte und Erfahrungen respektieren
+* Konstruktives Feedback geben und würdevoll annehmen
+* Verantwortung übernehmen und uns bei denjenigen entschuldigen, die von unseren Fehlern betroffen sind, und aus den Erfahrungen lernen
+* Konzentration auf das, was nicht nur für uns als Individuen, sondern für die gesamte Gemeinschaft das Beste ist
 
 Beispiele für inakzeptables Verhalten sind:
 
-- Die Verwendung sexualisierter Sprache, Bilder oder Symbolik sowie unerwünschte Versuche sexueller Annäherung - Beleidigende oder abwertende Kommentare, persönliche oder politische Angriffe und Trollen - Öffentliche oder private Belästigungen - Das Veröffentlichen von privaten Informationen Anderer, wie zum Beispiel physische oder elektronische Adressen, ohne deren ausdrückliche Erlaubnis - Anderes Verhalten, welches in einem professionellen Umfeld begründet als unangemessen betrachtet werden kann
+* Die Verwendung sexualisierter Sprache, Bilder oder Symbolik sowie unerwünschte Versuche sexueller Annäherung
+* Beleidigende oder abwertende Kommentare, persönliche oder politische Angriffe und Trollen
+* Öffentliche oder private Belästigungen
+* Das Veröffentlichen von privaten Informationen Anderer, wie zum Beispiel physische oder elektronische Adressen, ohne deren ausdrückliche Erlaubnis
+* Anderes Verhalten, welches in einem professionellen Umfeld begründet als unangemessen betrachtet werden kann
 
 ## Verantwortlichkeiten bei der Durchsetzung
 

@@ -16,11 +16,20 @@ Vi lover at deltage og samarbejde på en måde, der bidrager til at gøre fælle
 
 Eksempler på hvordan der skabes en god stemning i vores fællesskab inkluderer:
 
-* At vise medfølelse og være venlig overfor andre. * At have respekt for andre meninger, synspunkter, og erfaringer. * At give og kærligt modtage konstruktiv feedback. * At tage ansvar og undskylde overfor dem, der bliver ramt af vores fejl og at lære af oplevelsen. * At fokusere på hvad der er bedst, ikke bare for os som individer, men for hele fællesskabet.
+* At vise medfølelse og være venlig overfor andre.
+* At have respekt for andre meninger, synspunkter, og erfaringer.
+* At give og kærligt modtage konstruktiv feedback.
+* At tage ansvar og undskylde overfor dem, der bliver ramt af vores fejl og at lære af oplevelsen.
+* At fokusere på hvad der er bedst, ikke bare for os som individer, men for hele fællesskabet.
 
 Eksempler på uacceptabel opførsel inkluderer:
 
-* Brug af vulgært sprog eller vulgære billeder og seksuel opmærksomhed eller tilnærmelser af nogen art. * Ondsindet provokation, fornærmende eller nedladende kommentater, personlige eller politiske angreb. * Offentlig eller privat chikane. * Offentliggørelse af andres private information, f.eks. deling af deres e-mail eller postadresse uden deres tilladelse. * Anden opførsel som ikke hører til i et professionelt miljø.
+
+* Brug af vulgært sprog eller vulgære billeder og seksuel opmærksomhed eller tilnærmelser af nogen art.
+* Ondsindet provokation, fornærmende eller nedladende kommentater, personlige eller politiske angreb.
+* Offentlig eller privat chikane.
+* Offentliggørelse af andres private information, f.eks. deling af deres e-mail eller postadresse uden deres tilladelse.
+* Anden opførsel som ikke hører til i et professionelt miljø.
 
 ## Ansvar for håndhævelse
 
