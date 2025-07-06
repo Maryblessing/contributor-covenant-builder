@@ -33,7 +33,7 @@ const initializeReportingField = (placeholder) => {
   if (!reportingField || !template) { return }
 
   const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+  const regex = new RegExp(`${escaped}`, 'mi')
 
   const content = template.innerHTML
   const match = content.match(regex)
@@ -57,7 +57,7 @@ const initializeEnforcementField = (placeholder) => {
   if (!enforcementField || !template) { return }
 
   const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-  const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+  const regex = new RegExp(`${escaped}`, 'mi')
 
   const content = template.innerHTML
   const match = content.match(regex)
@@ -91,7 +91,7 @@ const updatePreview = (elemId) => {
   fieldsArray.forEach((field) => {
     const placeholder = field.dataset.placeholder
     const escaped = placeholder.replace(/[.*+\?^${}()|[\]\\]/g, '\\$&')
-    const regex = new RegExp(`^.*${escaped}.*$`, 'mi')
+    const regex = new RegExp(`${escaped}`, 'mi')
 
     const match = defaultText.match(regex)
     if ((match) && (match != "")) {
@@ -106,7 +106,7 @@ const updatePreview = (elemId) => {
 
   let scratch = defaultText
   matches.forEach((match) => { scratch = scratch.replace(match.match, match.replacement) });
-  const sanitized = scratch.replace('\n\n\n', '\n\n')
+  const sanitized = scratch.replace('\n\n\n', '\n\n').replace("__","")
   preview.innerHTML = marked.parse(sanitized)
   buffer.innerHTML = sanitized
   scrollPreview(scrollToText)

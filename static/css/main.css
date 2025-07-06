@@ -456,6 +456,9 @@ textarea {
 
 textarea.builder {
   height: 12rem;
+  width: 75%;
+  font-family: monospace;
+  font-size: .9rem;
 }
 
 input[type="text"]:focus,
