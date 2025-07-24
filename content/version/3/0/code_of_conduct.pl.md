@@ -9,15 +9,15 @@ enforcementPlaceholder = "\[UWAGA: Opisane poniżej środki zaradcze i naprawy s
 
 
 
-## Umowa współpracownika 3.0 
+## Umowa współpracownika 3.0
 
 
 
-### Nasze zobowiązanie
+## Nasze zobowiązanie
 
 
 
-Zobowiązujemy się uczynić naszą społeczność przyjazną, bezpieczną i sprawiedliwą dla wszystkich. 
+Zobowiązujemy się uczynić naszą społeczność przyjazną, bezpieczną i sprawiedliwą dla wszystkich.
 
 
 
@@ -25,11 +25,11 @@ Jesteśmy zobowiązani do wspierania środowiska, które szanuje i promuje godno
 
 
 
-### Zachęcające zachowania
+## Zachęcające zachowania
 
 
 
-Uznając różnice w normach społecznych, wszyscy staramy się sprostać oczekiwaniom naszej społeczności w zakresie pozytywnych zachowań. Rozumiemy również, że nasze słowa i działania mogą być interpretowane inaczej niż zamierzamy na podstawie kultury, tła lub języka ojczystego. 
+Uznając różnice w normach społecznych, wszyscy staramy się sprostać oczekiwaniom naszej społeczności w zakresie pozytywnych zachowań. Rozumiemy również, że nasze słowa i działania mogą być interpretowane inaczej niż zamierzamy na podstawie kultury, tła lub języka ojczystego.
 
 
 
@@ -47,7 +47,7 @@ Mając to na uwadze, zgadzamy się zachowywać uważnie wobec siebie i działać
 
 
 
-### Ograniczone zachowania
+## Ograniczone zachowania
 
 
 
@@ -55,17 +55,17 @@ Zgadzamy się ograniczyć następujące zachowania w naszej społeczności. Przy
 
 
 
-1. **Nękanie.** Naruszanie wyraźnie wyrażonych granic lub angażowanie się w niepotrzebną osobistą uwagę po wyraźnej prośbie o zaprzestanie. 
+1. **Nękanie.** Naruszanie wyraźnie wyrażonych granic lub angażowanie się w niepotrzebną osobistą uwagę po wyraźnej prośbie o zaprzestanie.
 2. **Ataki postaci.** Obraźliwe, poniżające lub pejoratywne komentarze skierowane do członka społeczności lub grupy ludzi.
-3. **Stereotypy czy dyskryminacja.** Charakteryzowanie czyjejś osobowości lub zachowania na podstawie niezmiennych tożsamości lub cech. 
+3. **Stereotypy czy dyskryminacja.** Charakteryzowanie czyjejś osobowości lub zachowania na podstawie niezmiennych tożsamości lub cech.
 4. **Seksualizacja.** Zachowanie w sposób, który na ogół byłby uważany za nieodpowiednio intymny w kontekście lub celu społeczności.
 5. **Naruszenie poufności.** Udostępnianie lub działanie na czyjejś dane osobowe lub prywatne bez ich zgody.
 6. **Zagrożenie.** Wywoływanie, zachęcanie lub grożenie przemocą lub inną krzywdą wobec jakiejkolwiek osoby lub grupy.
-7. Zachowanie w inny sposób, który **zagraża dobrobytowi** naszej społeczności. 
+7. Zachowanie w inny sposób, który **zagraża dobrobytowi** naszej społeczności.
 
 
 
-### Inne ograniczenia
+## Inne ograniczenia
 
 
 
@@ -76,7 +76,7 @@ Zgadzamy się ograniczyć następujące zachowania w naszej społeczności. Przy
 
 
 
-### Zgłaszanie problem
+## Zgłaszanie problem
 
 
 
@@ -84,15 +84,15 @@ Napięcia mogą wystąpić między członkami społeczności, nawet jeśli stara
 
 
 
-Gdy zdarzy się incydent, ważne jest, aby natychmiast go zgłosić. Aby zgłosić ewentualne naruszenie, **\[UWAGA: Opisz swoje sposoby zgłaszania tutaj]**. 
+Gdy zdarzy się incydent, ważne jest, aby natychmiast go zgłosić. Aby zgłosić ewentualne naruszenie, **\[UWAGA: Opisz swoje sposoby zgłaszania tutaj]**.
 
 
 
-Moderatorzy społeczności traktują zgłoszenia naruszeń poważnie i dołożą wszelkich starań, aby reagować w odpowiednim czasie.  Będą badać wszystkie zgłoszenia naruszeń kodeksu postępowania, przeglądać wiadomości, dzienniki i nagrania lub przesłuchiwać świadków i innych uczestników. Moderatorzy społeczni będą utrzymywać jak najbardziej przejrzyste działania dochodzeniowe i egzekucyjne, przy jednoczesnym priorytetowym traktowaniu bezpieczeństwa i poufności. W celu poszanowania tych wartości działania egzekucyjne są prowadzone prywatnie z zaangażowanymi stronami, ale komunikowanie się całej społeczności może być częścią wspólnie uzgodnionej rezolucji.  
+Moderatorzy społeczności traktują zgłoszenia naruszeń poważnie i dołożą wszelkich starań, aby reagować w odpowiednim czasie.  Będą badać wszystkie zgłoszenia naruszeń kodeksu postępowania, przeglądać wiadomości, dzienniki i nagrania lub przesłuchiwać świadków i innych uczestników. Moderatorzy społeczni będą utrzymywać jak najbardziej przejrzyste działania dochodzeniowe i egzekucyjne, przy jednoczesnym priorytetowym traktowaniu bezpieczeństwa i poufności. W celu poszanowania tych wartości działania egzekucyjne są prowadzone prywatnie z zaangażowanymi stronami, ale komunikowanie się całej społeczności może być częścią wspólnie uzgodnionej rezolucji.
 
+## 
 
-
-### Usuwanie i naprawianie szkód
+## Usuwanie i naprawianie szkód
 
 
 
@@ -100,49 +100,55 @@ Moderatorzy społeczności traktują zgłoszenia naruszeń poważnie i dołożą
 
 
 
-Jeśli dochodzenie przeprowadzone przez moderatorów Wspólnoty stwierdzi, że niniejszy kodeks postępowania został naruszony, można zastosować następującą drabinę egzekwowania przepisów w celu określenia najlepszego sposobu naprawienia szkody, w oparciu o wpływ incydentu na osoby zaangażowane i społeczność jako całość. W zależności od stopnia naruszenia, niższe szczeble drabiny mogą być pomijane. 
+Jeśli dochodzenie przeprowadzone przez moderatorów Wspólnoty stwierdzi, że niniejszy kodeks postępowania został naruszony, można zastosować następującą drabinę egzekwowania przepisów w celu określenia najlepszego sposobu naprawienia szkody, w oparciu o wpływ incydentu na osoby zaangażowane i społeczność jako całość. W zależności od stopnia naruszenia, niższe szczeble drabiny mogą być pomijane.
 
 
 
-Ostrzeżenie
+ 	1) Ostrzeżenie
 
-Zdarzenie: Naruszenie polegające na pojedynczym incydencie lub serii incydentów.
+ 		a) Zdarzenie: Naruszenie polegające na pojedynczym incydencie lub serii incydentów.
 
-Następstwo: Prywatne, pisemne ostrzeżenie od moderatorów społeczności.
+ 		b) Następstwo: Prywatne, pisemne ostrzeżenie od moderatorów społeczności.
 
-Naprawa: Przykłady naprawy obejmują prywatne pisemne przeprosiny, uznanie odpowiedzialności i poszukiwanie wyjaśnień na temat oczekiwań.
-
-Tymczasowo ograniczona działalność
-
-Zdarzenie: Powtarzające się przypadki naruszenia, które wcześniej skutkowało ostrzeżeniem lub pierwszym wystąpieniem poważniejszego naruszenia.  
-
-Następstwo:  Prywatne, pisemne ostrzeżenie z ograniczonym czasem odnowienia, mające na celu podkreślenie powagi sytuacji i zapewnienie zaangażowanym członkom społeczności czasu na przetworzenie incydentu.  Okres odnowienia może być ograniczony do konkretnych kanałów komunikacji lub interakcji z poszczególnymi członkami społeczności.
-
-Naprawa: Przykłady napraw mogą obejmować przeprosiny, wykorzystanie okresu odnowienia do refleksji na temat działań i wpływu oraz przemyślenie ponownego wejścia do przestrzeni społecznościowych po zakończeniu okresu.
-
-Tymczasowe zawieszenie
-
-Zdarzenie: Wzorzec powtarzających się naruszeń, które moderatorzy społeczności próbowali rozwiązać za pomocą ostrzeżeń lub pojedynczego poważnego naruszenia.
-
-Następstwo: Prywatne pisemne ostrzeżenie z warunkami powrotu z zawieszenia. Ogólnie rzecz biorąc, tymczasowe zawieszenie daje osobie zawieszonej czas na zastanowienie się nad jej zachowaniem i możliwymi działaniami naprawczymi.  
-
-Naprawa: Przykłady napraw obejmują poszanowanie ducha zawieszenia, spełnienie określonych warunków zwrotu i rozważenie, jak ponownie zintegrować się ze społecznością po zniesieniu zawieszenia.
-
-Stały zakaz
-
-Zdarzenie: Wzór powtarzających się naruszeń kodeksu postępowania, których nie udało się rozwiązać przez inne kroki na drabinie, lub naruszenie tak poważne, że moderatorzy społeczności ustalają, że nie ma sposobu, aby zapewnić społeczności bezpieczeństwo z tą osobą jako członkiem.  
-
-Następstwo: Dostęp do wszystkich przestrzeni społecznościowych, narzędzi i kanałów komunikacji zostanie usunięty. Ogólnie rzecz biorąc, stałe zakazy powinny być rzadko stosowane, powinny mieć silne uzasadnienie i powinny być stosowane tylko wtedy, gdy praca z innymi środkami zaradczymi nie zmieniła zachowania.
-
-Naprawa: W przypadku wystąpienia takiej usterki naprawa nie jest możliwa.
+ 		c) Naprawa: Przykłady naprawy obejmują prywatne pisemne przeprosiny, uznanie odpowiedzialności i poszukiwanie wyjaśnień na temat oczekiwań.
 
 
 
-Ta drabina wykonawcza ma służyć jako wytyczne. Nie ogranicza to zdolności kierowników społeczności do korzystania z ich dyskrecji i osądu, zgodnie z najlepszym interesem naszej społeczności. 
+ 	2) Tymczasowo ograniczona działalność
+
+ 		a) Zdarzenie: Powtarzające się przypadki naruszenia, które wcześniej skutkowało ostrzeżeniem lub pierwszym wystąpieniem poważniejszego naruszenia.
+
+ 		b) Następstwo:  Prywatne, pisemne ostrzeżenie z ograniczonym czasem odnowienia, mające na celu podkreślenie powagi sytuacji i zapewnienie zaangażowanym członkom społeczności czasu na przetworzenie incydentu.  Okres odnowienia może być ograniczony do konkretnych kanałów komunikacji lub interakcji z poszczególnymi członkami społeczności.
+
+ 		c) Naprawa: Przykłady napraw mogą obejmować przeprosiny, wykorzystanie okresu odnowienia do refleksji na temat działań i wpływu oraz przemyślenie ponownego wejścia do przestrzeni społecznościowych po zakończeniu okresu.
 
 
 
-### Zakres
+ 	3) Tymczasowe zawieszenie
+
+ 		a) Zdarzenie: Wzorzec powtarzających się naruszeń, które moderatorzy społeczności próbowali rozwiązać za pomocą ostrzeżeń lub pojedynczego poważnego naruszenia.
+
+ 		b) Następstwo: Prywatne pisemne ostrzeżenie z warunkami powrotu z zawieszenia. Ogólnie rzecz biorąc, tymczasowe zawieszenie daje osobie zawieszonej czas na zastanowienie się nad jej zachowaniem i możliwymi działaniami naprawczymi.
+
+ 		c) Naprawa: Przykłady napraw obejmują poszanowanie ducha zawieszenia, spełnienie określonych warunków zwrotu i rozważenie, jak ponownie zintegrować się ze społecznością po zniesieniu zawieszenia.
+
+
+
+ 	4) Stały zakaz
+
+ 		a) Zdarzenie: Wzór powtarzających się naruszeń kodeksu postępowania, których nie udało się rozwiązać przez inne kroki na drabinie, lub naruszenie tak poważne, że moderatorzy społeczności ustalają, że nie ma sposobu, aby zapewnić społeczności bezpieczeństwo z tą osobą jako członkiem.
+
+ 		b) Następstwo: Dostęp do wszystkich przestrzeni społecznościowych, narzędzi i kanałów komunikacji zostanie usunięty. Ogólnie rzecz biorąc, stałe zakazy powinny być rzadko stosowane, powinny mieć silne uzasadnienie i powinny być stosowane tylko wtedy, gdy praca z innymi środkami zaradczymi nie zmieniła zachowania.
+
+ 		c) Naprawa: W przypadku wystąpienia takiej usterki naprawa nie jest możliwa.
+
+
+
+Ta drabina wykonawcza ma służyć jako wytyczne. Nie ogranicza to zdolności kierowników społeczności do korzystania z ich dyskrecji i osądu, zgodnie z najlepszym interesem naszej społeczności.
+
+
+
+## Zakres
 
 
 
@@ -150,7 +156,7 @@ Niniejszy Kodeks postępowania ma zastosowanie we wszystkich przestrzeniach spo�
 
 
 
-### Atrybucja
+## Atrybucja
 
 
 
@@ -163,8 +169,4 @@ Contributor Covenant jest zarządzany przez Organizację Etycznego źródła i l
 
 
 Aby uzyskać odpowiedzi na najczęściej zadawane pytania dotyczące Contributor Covenant, zobacz FAQ pod adresem https://www.contributor-covenant.org/faq. Tłumaczenia dostępne są na stronie https://www.contributor-covenant.org/translations. Dodatkowe zasoby dotyczące egzekwowania przepisów i wytycznych dla społeczności można znaleźć na stronie https://www.contributor-covenant.org/resources. Drabina egzekwowania została zainspirowana pracą zespołu Kodeksu postępowania Mozilli.
-
-
-
-
 
